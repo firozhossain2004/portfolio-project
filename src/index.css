@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Englisc;
+    src: url("../src/assets/Englisc.otf");
+}
+/* @font-face {
+    font-family: Englisc2;
+    src: url("../src/assets/Englisc2.otf");
+} */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@import "tailwindcss";
+body{
+    font-family: "Red Hat Display", sans-serif;
+}
+@theme{
+    --font-Englisc:Englisc,"sans-serif"
+}
+/* @theme{
+    --font-font:font,"sans-serif"
+} */
