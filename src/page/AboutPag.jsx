@@ -13,13 +13,13 @@ import img6 from '../assets/about-img/img6.png'
 
 const AboutPag = () => {
     return (
-        <div>
-            <h1 className='text-5xl px-28 py-10  font-medium'>About <span className='font-Englisc'>Me</span></h1>
+        <div className=''>
+            <h1 className='text-5xl px-2 md:px-28 py-10  font-medium'>About <span className='font-Englisc'>Me</span></h1>
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
-                <div className="w-full md:w-1/2">
+                <div className="px-3.5 w-full md:w-1/2">
                     <img src={about} className="w-full h-full object-cover rounded-3xl" alt="About Me" />
                 </div>
-                <div className="w-full md:w-1/2 space-y-4">
+                <div className="w-full xl: px-2 md:w-1/2 space-y-4">
 
                     <p className='text-sm text-gray-400'>Hello, I'm</p>
                     <h1 className='text-2xl font font-semibold'>MD Raihan Hossain</h1>
@@ -72,7 +72,7 @@ const AboutPag = () => {
                     </button>
                 </div>
             </div>
-            <div className='px-20 mt-28 mb-28 flex gap-28'>
+            <div className='px-10 md:px-20 mt-28 mb-28 md:flex gap-28'>
 
                 <h1 className='text-5xl font-medium'>
                     Work <span className='font-Englisc'>Experience</span>
@@ -82,7 +82,7 @@ const AboutPag = () => {
                     {experiences.map((item) => (
                         <div
                             key={item.id}
-                            className='w-2xl mt-10 space-y-3'
+                            className='md:w-2xl mt-10 space-y-3'
                         >
                             <div className='flex justify-between'>
                                 <div>
@@ -92,7 +92,7 @@ const AboutPag = () => {
                                     </p>
                                 </div>
 
-                                <p className='text-xs text-gray-400'>
+                                <p className='text-xs  text-gray-400'>
                                     {item.duration}
                                 </p>
                             </div>
@@ -107,7 +107,7 @@ const AboutPag = () => {
             <div className='px-22 mb-20'>
                 <div>
                     <h6 className='text-[#6650D7] mb-4'>WHY CHOOSE ME</h6>
-                    <h1 className='text-5xl w-2xl'>I <span className='font-Englisc'>Design </span> for the <span className='font-Englisc'>Future</span> to Drive
+                    <h1 className='text-5xl  md:w-2xl'>I <span className='font-Englisc'>Design </span> for the <span className='font-Englisc'>Future</span> to Drive
                         Today’s <span className='font-Englisc'></span>Success</h1>
                 </div>
                 <div className="bg-black text-white px-10 py-20">
@@ -131,7 +131,7 @@ const AboutPag = () => {
 
                     </div>
 
-                    {/* Bottom 3 Cards */}
+                   
                     <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-8 mt-8">
 
                         {features.slice(2).map((item) => (
@@ -160,7 +160,7 @@ const AboutPag = () => {
                 <div>
                     <div className='md:flex flex-2 justify-between px-50 mx-auto items-center mb-10'>
                         <div>
-                            <div className='flex items-center gap-44 '>
+                            <div className='space-y-10 md:flex items-center gap-44 '>
 
                                 <div>
                                     <LogoCount end={4} />
@@ -185,7 +185,7 @@ const AboutPag = () => {
                 </div>
             </div>
             <div>
-                <div className='text-center font-medium md:text-5xl w-3xl mx-auto mb-24'>
+                <div className='text-center font-medium md:text-5xl md:w-3xl mx-auto mb-24'>
                     I Create <span className='font-Englisc'>Memorable Experiences</span>
                     for your Brand from<span className='font-Englisc'> Bangladesh</span>
                     to the <span className='font-Englisc'>World.</span>

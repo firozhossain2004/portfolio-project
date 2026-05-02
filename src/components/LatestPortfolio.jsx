@@ -14,11 +14,11 @@ const LatestPortfolio = () => {
 
             </div>
             <div className='px-40'>
-                <div className="flex flex-1 md:flex gap-28 mb-10">
+                <div className=" md:flex gap-28 mb-10">
 
 
                     <div
-                        className="w-[40%] h-[360px] rounded-2xl overflow-hidden relative group "
+                        className="md:w-[40%] md:h-[360px] rounded-2xl overflow-hidden relative group "
 
                     >
                         <img src={home1} className='rounded-2xl' alt="" />
@@ -28,7 +28,7 @@ const LatestPortfolio = () => {
 
 
                     <div
-                        className="w-[35%] h-[260px] rounded-2xl mt-24 backdrop-blur-lg  relative group overflow-hidden"
+                        className="md:w-[35%] md:h-[260px] rounded-2xl mt-24 backdrop-blur-lg  relative group overflow-hidden"
 
                     >
                         <img src={home2} className='rounded-2xl' alt="" />
@@ -41,7 +41,7 @@ const LatestPortfolio = () => {
 
 
                 <div
-                    className="w-[50%] mx-auto h-[350px] rounded-2xl  mb-7 relative group overflow-hidden"
+                    className="md:w-[50%] mx-auto md:h-[350px] rounded-2xl  mb-7 relative group overflow-hidden"
 
                 >
                     <img src={home3} className='rounded-2xl' alt="" />
@@ -49,10 +49,10 @@ const LatestPortfolio = () => {
 
                 </div>
 
-                <div className="flex flex-1 md:flex gap-32 mt-24">
+                <div className=" md:flex gap-32 mt-24">
 
                     <div
-                        className="w-[35%] h-[260px] rounded-2xl  backdrop-blur-lg relative group overflow-hidden"
+                        className="md:w-[35%] md:h-[260px] rounded-2xl  backdrop-blur-lg relative group overflow-hidden mb-10"
 
                     >
                         <img src={home4} className='rounded-2xl' alt="" />
@@ -60,7 +60,7 @@ const LatestPortfolio = () => {
 
                     </div>
                     <div
-                        className="w-[40%] h-[360px] rounded-2xl overflow-hidden relative group"
+                        className="md:w-[40%] md:h-[360px] rounded-2xl overflow-hidden relative group"
 
                     >
                         <img
@@ -73,7 +73,7 @@ const LatestPortfolio = () => {
                     </div>
 
                 </div>
-                <div className=' flex justify-center  py-18'>
+                <div className='flex justify-center  py-18'>
                     <Link to={"/contact"} className='bg-[#6650D7] px-6 py-1.5 rounded-xl text-center  '>Start a Project</Link>
                 </div>
             </div>
@@ -84,7 +84,7 @@ const LatestPortfolio = () => {
                         <br /> <span className='font-Englisc'>Recommend me</span></h1>
 
                 </div>
-                <div className='flex px-48 justify-center gap-60 mx-auto items-center mt-28'> 
+                <div className=' px-14 md:flex md:px-48 justify-center gap-60 mx-auto items-center mt-28'> 
                     <div className='space-y-6'>
                         <div className='flex items-center'>
                             <img src={client} className='w-15 h-15 object-contain' alt="" />

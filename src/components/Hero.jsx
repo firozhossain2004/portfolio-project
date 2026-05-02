@@ -6,9 +6,10 @@ import lastlogo from '../assets/lastLogo.png'
 import LatestPortfolio from './LatestPortfolio'
 import { Imgs } from '../js/brendimg.js'
 
+
 const Hero = () => {
     return (
-        <div>
+        <div className='px-2'>
             <div >
                 <img src={heroimg} className="w-full h-screen object-top object-cover " alt="Md Raihan Hossain" />
             </div>
@@ -20,23 +21,24 @@ const Hero = () => {
                 <p className=''>Trusted by brands in 20+ countries</p>
                 <Link to={"/contact"} className='bg-[#6650D7] px-5  py-1.5 rounded-xl '>Contact Now</Link>
             </div>
-            <div className='flex mb-10'>
+            <div className=' flex flex-col md:flex-row mb-10'>
                 {Imgs.map((item) => (
                     <img
                         key={item.id}
                         src={item.img}
-                        className="h-8 mx-9 my-10 object-contain"
+                        className="h-14 md:h-8 mx-9 my-10 object-contain"
                         alt=""
                     />
                 ))}
             </div>
 
+            
 
-            <h1 className='text-5xl font-bold italic px-20'><span className='italic font-Englisc'>Worked</span> with</h1>
-            <div className='md:flex flex-2 justify-between px-50 mx-auto items-center mb-10'>
+            <h1 className='text-3xl md:text-5xl font-bold italic px-2 mb-5'><span className='italic font-Englisc'>Worked</span> with</h1>
+            <div className='space-y-15 md:flex flex-2 justify-between px-50 mx-auto items-center mb-10 '>
                 <div>
-                    <div className='flex gap-10'>
-                        <div className='space-y-15'>
+                    <div className='md:flex gap-10'>
+                        <div className='mb-13 space-y-15'>
                             <div>
                                 <LogoCount end={4} />
                                 <p className='text-sm text-gray-400 w-20'>Years of Experience</p>
@@ -62,7 +64,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div>
-                    <img src={lastlogo} className='w-xs rounded-2xl' alt="" />
+                    <img src={lastlogo} className=' w-xs rounded-2xl' alt="" />
                 </div>
             </div>
             <LatestPortfolio />
