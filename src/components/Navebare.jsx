@@ -13,8 +13,8 @@ const Navebare = () => {
         <div className='flex gap-2 md:gap-12'>
           <ul className='flex gap-1.5 md:gap-4 mt-1.5'>
            
-            <Link to={"/About"}>About</Link>
-            <Link to={"/Work"}>Work</Link>
+            <Link to={"/about"}>About</Link>
+            <Link to={"/work"}>Work</Link>
             <Link to={"/services"}>Services</Link>
             <Link to={"/process"}>Process</Link>
           </ul>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@import "tailwindcss";
 @font-face {
     font-family: Englisc;
     src: url("../src/assets/Englisc.otf");
@@ -6,8 +8,6 @@
     font-family: Englisc2;
     src: url("../src/assets/Englisc2.otf");
 } */
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
-@import "tailwindcss";
 body{
     font-family: "Red Hat Display", sans-serif;
 }
@@ -17,3 +17,15 @@ body{
 /* @theme{
     --font-font:font,"sans-serif"
 } */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 20s linear infinite;
+}
