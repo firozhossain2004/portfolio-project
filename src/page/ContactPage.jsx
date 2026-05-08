@@ -1,38 +1,51 @@
-import React from 'react'
+import React from "react";
+import FormPage from "../components/FormPage.jsx";
+import ContactQuestion from "../components/ContactQuestion.jsx";
+import LogoSlider from "../components/LogoSlider.jsx";
 
-import { Imgs } from '../js/brendimg.js'
-import Titale from '../components/Titale.jsx'
-import FromPage from '../components/FromPage.jsx'
 const ContactPage = () => {
-    return (
-        <div className="bg-black min-h-screen text-white p-10 space-y-20 ">
+  return (
+    <div className="bg-black min-h-screen text-white px-4 md:px-10 py-10 space-y-20">
 
-            <h1 className="text-6xl text-center mb-10 ">
-                Have a Question or <br />
-                <span className="italic font-Englisc">Just Want to Chat?</span>
-            </h1>
+      
+      <div className="text-center max-w-3xl mx-auto">
+        <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl leading-tight">
+          Have a Question or <br />
+          <span className="italic font-Englisc">
+            Just Want to Chat?
+          </span>
+        </h1>
+      </div>
 
-            <FromPage/>
-            <div className='flex mb-10'>
-                {Imgs.map((item) => (
-                    <img
-                        key={item.id}
-                        src={item.img}
-                        className="h-8 mx-9 my-10 object-contain"
-                        alt=""
-                    />
-                ))}
-            </div>
-            <div className='text-center  space-y-2.5'>
-                <h5 className='text-xl text-purple-500'>FREQUENTLY ASKED QUESTIONS</h5>
-                <h1 className='text-5xl'>Your Questions <br />
-                    <span className='font-Englisc'>Answered!</span></h1>
-            </div>
-            <div>
-                <Titale/>
-            </div>
-        </div>
-    )
-}
+    
+      <div className="max-w-4xl mx-auto">
+        <FormPage />
+      </div>
 
-export default ContactPage
+     
+      <div className="w-full overflow-hidden">
+        <LogoSlider />
+      </div>
+
+   
+      <div className="text-center space-y-3 max-w-2xl mx-auto">
+        <h5 className="text-xs sm:text-sm md:text-lg text-purple-500 tracking-wide">
+          FREQUENTLY ASKED QUESTIONS
+        </h5>
+
+        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight">
+          Your Questions <br />
+          <span className="font-Englisc">Answered!</span>
+        </h2>
+      </div>
+
+     
+      <div className="max-w-3xl md:max-w-4xl mx-auto">
+        <ContactQuestion />
+      </div>
+
+    </div>
+  );
+};
+
+export default ContactPage;

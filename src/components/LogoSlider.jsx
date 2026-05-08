@@ -1,9 +1,9 @@
 
 import { motion } from "framer-motion";
-import { Imgs } from "../js/brendimg";
+import { Imgs } from "../Data/brendimg";
 
 const LogoSlider = () => {
-  // 👉 double list for seamless loop
+ 
   const logos = [...Imgs, ...Imgs];
 
   return (
@@ -14,7 +14,7 @@ const LogoSlider = () => {
         animate={{ x: ["0%", "-50%"] }}
         transition={{
           ease: "linear",
-          duration: 20, // speed control
+          duration: 20,
           repeat: Infinity,
         }}
       >

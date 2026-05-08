@@ -1,6 +1,7 @@
 import React from 'react'
-import From from '../components/From'
-const FromPage = () => {
+import Form from './Form'
+
+const FormPage = () => {
   return (
     <div className="md:flex gap-10 max-w-5xl mx-auto bg-white/10 p-8 rounded-2xl backdrop-blur-md">
 
@@ -30,11 +31,11 @@ const FromPage = () => {
                         </div>
                     </div>
                 </div>
-                <From />
+                <Form/>
 
 
             </div>
   )
 }
 
-export default FromPage
+export default FormPage

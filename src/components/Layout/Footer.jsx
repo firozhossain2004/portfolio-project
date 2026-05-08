@@ -50,8 +50,9 @@ const Footer = () => {
       </div>
 
       <div className="border-t border-gray-700 mt-10 pt-5 text-center text-gray-500 text-sm">
-        © 2026 YourName. All rights reserved.
+        © 2026 Raihan. All rights reserved.
       </div>
+      
     </footer>
   );
 };
