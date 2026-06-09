@@ -1,9 +1,10 @@
 import React from "react";
 import servicesData from "../Data/services";
+import Process from "./Process";
 
 const Servicesitem = () => {
   return (
-    <div className="bg-black text-white px-4 md:px-28 py-16">
+    <div className="bg-black text-white px-4 md:px-24 py-16">
 
 
       <div className="text-center md:text-left max-w-3xl mx-auto md:mx-0">
@@ -12,8 +13,8 @@ const Servicesitem = () => {
         </h4>
 
         <h1 className="text-2xl sm:text-3xl md:text-5xl mt-4 md:mt-6 leading-tight">
-          I Design <span className="font-Englisc">Brands</span> That{" "}
-          <span className="font-Englisc">Speak</span> to Audiences
+          I Design <span className="font-luxury italic tracking-wide">Brands</span> That{" "}
+          <span className="font-luxury italic tracking-wide">Speak</span> to Audiences
         </h1>
       </div>
 
@@ -23,7 +24,7 @@ const Servicesitem = () => {
         {servicesData.map((item, index) => (
           <div
             key={index}
-            className="flex flex-col md:flex-row items-center gap-10 md:gap-20"
+            className="flex flex-col md:flex-row items-center gap-10 md:gap-36"
           >
 
 
@@ -53,13 +54,13 @@ const Servicesitem = () => {
               <img
                 src={item.images.main}
                 alt=""
-                className="absolute top-0 md:-ml-32 w-40 sm:w-48 md:w-56 h-60 md:h-80 object-cover rounded-xl border"
+                className="absolute top-0 md:-ml-44 w-40 sm:w-48 md:w-64 h-60 md:h-80 object-cover rounded-xl border"
               />
 
               <img
                 src={item.images.secondary}
                 alt=""
-                className="absolute bottom-0 right-0 w-40 sm:w-48 md:w-56 h-60 md:h-80 object-cover rounded-xl border"
+                className="absolute bottom-0 right-0 w-40 sm:w-48 md:w-64 h-60 md:h-80 object-cover rounded-xl border"
               />
 
             </div>
@@ -68,6 +69,7 @@ const Servicesitem = () => {
         ))}
 
       </div>
+      <Process />
     </div>
   );
 };

@@ -7,22 +7,25 @@ const Count = () => {
 
                 <div>
                     <LogoCount end={4} />
-                    <p className='text-sm text-gray-400'>Years of Experience</p>
+                    <p className='text-sm text-gray-400 w-17'>Years of Experience</p>
                 </div>
 
                 <div>
                     <LogoCount end={20} />
-                    <p className='text-sm text-gray-400'>Countries with Global Luxury Clients</p>
+                    <p className='text-sm text-gray-400 w-36'>Countries with
+                        Global Luxury Clients</p>
                 </div>
 
                 <div>
                     <LogoCount end={150} />
-                    <p className='text-sm text-gray-400'>Elite Real Estate Brands</p>
+                    <p className='text-sm text-gray-400 w-32'>Elite Real Estat
+                        Brands & Agencies</p>
                 </div>
 
                 <div>
-                    <LogoCount end={600} />
-                    <p className='text-sm text-gray-400'>Projects Delivered</p>
+                    <LogoCount end={500} />
+                    <p className='text-sm text-gray-400 w-44'>High-End Projects
+                        Delivered with Distinction</p>
                 </div>
 
             </div>

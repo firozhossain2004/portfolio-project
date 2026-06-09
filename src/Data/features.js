@@ -2,26 +2,32 @@ export const features = [
   {
     id: 1,
     title: "Unlimited Revisions",
-    desc: "We’re committed to your satisfaction with unlimited revisions at every step. Our mission is to make your vision come to life exactly as you imagine.",
+    desc: "Your vision deserves to be perfect. I offerunlimited revisions at every stage of theproject, ensuring the final result reflects exactlywhat you imagined — with zero compromise onquality.",
   },
   {
     id: 2,
     title: "Lifetime Support",
-    desc: "With our lifetime support, you’re never alone. We’ll be there for you at every stage with necessary guidance and assistance whenever you need it.",
+    desc: "Our relationship doesn't end at delivery. Iprovide ongoing support long after yourproject is complete — available whenever youneed guidance, updates, or assistance to keepyour brand performing at its best.",
   },
   {
     id: 3,
     title: "Personalised Plans",
-    desc: "Get top-quality service without breaking the bank. Our rates are designed to fit your budget so that you can get the best value for your investment.",
+    desc: "Every brand is unique, and so is my approach. Itailor each project to your specific goals,budget, and vision — ensuring you receive abespoke design experience that deliversgenuine value for your investment",
   },
   {
     id: 4,
     title: "Custom Design Solutions",
-    desc: "Our easy payment options are completely flexible. So, you can invest in your success while staying within your budget.",
+    desc: "No templates, no shortcuts. Every design Icreate is built from scratch, crafted aroundyour brand's identity and market position —giving your real estate brand a distinct visualedge over the competition.",
   },
   {
     id: 5,
     title: "24/7 Customer Support",
-    desc: "Benefit from the expertise of our carefully chosen resources that are designed to make your journey smooth and effortless with outstanding results.",
+    desc: "I'm always within reach. Whether you have aquestion, a revision request, or an urgent need,I'm available around the clock to ensure yourproject stays on track and your expectationsare always exceeded.",
   },
+  {
+    id: 6,
+    title: "Confidentiality Guaranteed",
+    desc: "Your brand strategy and project details remaincompletely private. I'm happy to sign aNon-Disclosure Agreement before we begin,giving you full peace of mind throughout ourcollaboration.",
+  },
+ 
 ];

@@ -11,19 +11,19 @@ const Navebare = () => {
 
       <div className="flex justify-between items-center">
 
-        {/* 🔥 Logo */}
+        
         <div className="w-20 md:w-28">
           <Link to="/">
             <img src={logo} alt="Logo" />
           </Link>
         </div>
 
-        {/* 🔥 Desktop Menu */}
+       
         <div className="hidden md:flex items-center gap-10">
           <Link to="/about">About</Link>
           <Link to="/work">Work</Link>
           <Link to="/services">Services</Link>
-          <Link to="/process">Process</Link>
+         
 
           <Link
             to="/contact"
@@ -33,7 +33,7 @@ const Navebare = () => {
           </Link>
         </div>
 
-        {/* 🔥 Mobile Menu Icon */}
+        
         <div className="md:hidden">
           <button onClick={() => setOpen(!open)}>
             {open ? <HiX size={28} /> : <HiMenu size={28} />}
@@ -41,7 +41,7 @@ const Navebare = () => {
         </div>
       </div>
 
-      {/* 🔥 Mobile Dropdown Menu */}
+ 
       {open && (
         <div className="md:hidden mt-4 flex flex-col gap-4 bg-black p-4 rounded-xl border border-gray-700">
 

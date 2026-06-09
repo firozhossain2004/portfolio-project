@@ -43,7 +43,7 @@ const Process = () => {
               <img
                 src={item.img}
                 alt={item.title}
-                className="w-full h-56 sm:h-64 md:h-72 lg:h-80 object-cover rounded-xl border"
+                className="w-full h-56 sm:h-64 md:h-72  object-cover rounded-xl border"
               />
             </div>
 

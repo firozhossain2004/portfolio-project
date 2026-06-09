@@ -11,7 +11,7 @@ const ContactPage = () => {
       <div className="text-center max-w-3xl mx-auto">
         <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl leading-tight">
           Have a Question or <br />
-          <span className="italic font-Englisc">
+          <span className="font-luxury italic tracking-wide">
             Just Want to Chat?
           </span>
         </h1>
@@ -26,7 +26,7 @@ const ContactPage = () => {
       <div className="w-full overflow-hidden">
         <LogoSlider />
       </div>
-
+ 
    
       <div className="text-center space-y-3 max-w-2xl mx-auto">
         <h5 className="text-xs sm:text-sm md:text-lg text-purple-500 tracking-wide">
@@ -35,7 +35,7 @@ const ContactPage = () => {
 
         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight">
           Your Questions <br />
-          <span className="font-Englisc">Answered!</span>
+          <span className="font-luxury italic tracking-wide">Answered!</span>
         </h2>
       </div>
 

@@ -2,13 +2,13 @@ import React from 'react'
 import { experiences } from '../../Data/exprience'
 const WorkExperience = () => {
     return (
-        <div className='px-10 md:px-20 mt-28 mb-28 md:flex gap-28'>
+        <div className='px-10 md:px-24 mt-28 mb-28 md:flex gap-10'>
 
             <h1 className='text-5xl font-medium'>
-                Work <span className='font-Englisc'>Experience</span>
+                Work <span className='font-luxury italic tracking-wide'>Experience</span>
             </h1>
 
-            <div>
+            <div className='px-4 mt-11'>
                 {experiences.map((item) => (
                     <div
                         key={item.id}

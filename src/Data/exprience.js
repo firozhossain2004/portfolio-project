@@ -5,7 +5,7 @@ export const experiences = [
     role: "Senior Marketing Designer",
     duration: "2024 – Present",
     description:
-      "I've been collaborating with Heyazah, a luxury real estate company based in Saudi Arabia. My job involves creating top-notch brochures and marketing campaigns. I focus on boosting their visual brand by turning basic layouts into upscale, Arabic-centered designs that attract high-end property buyers.",
+      "I collaborate with Heyazah, a luxury real estate company based in Saudi Arabia, to create high-endbrochures and strategic marketing campaigns. My focus is on elevating their visual brand bytransforming basic layouts into refined, Arabic-centered designs that appeal to discerning, high-endproperty buyers.",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const experiences = [
     role: "Creative Marketing Designer",
     duration: "2024 – Present",
     description:
-      "I have been working closely with Daroma Estate to update their old marketing designs. I developed high-quality brochures and branding materials that highlight the luxury of their properties, improving their market position and increasing sales.",
+      "Working closely with Daroma Estate, I redesign and upgrade their existing marketing materials to reflectthe true luxury of their properties.I develop premium brochures and branding assets that strengthentheir market positioning and directly support increased sales performance.",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const experiences = [
     role: "Marketing Designer",
     duration: "2024 – Present",
     description:
-      "I am working with Galaxy Real Estate to create high-quality brochures and corporate profiles for luxury property projects. My designs bring a sophisticated and premium look that improves the company’s marketing impact.",
+      "I create high-quality brochures and corporate profiles for Galaxy Real Estate's luxury property projects.Each design carries a sophisticated, premium aesthetic that reinforces the company's brand authorityand marketing impact across their target market.",
   },
   {
     id: 4,
@@ -29,6 +29,6 @@ export const experiences = [
     role: "Marketing Designer",
     duration: "Full-time",
     description:
-      "I worked full-time with AL-JAZIRA Group’s real estate division. I was responsible for creating marketing materials, print campaigns, and social media designs. My work improved their brand visibility and overall engagement.",
+      "I worked full-time with AL-JAZIRA Group's real estate division, leading the creation of marketingmaterials, print campaigns, and social media designs. My work strengthened their brand visibility andbuilt a more commanding presence in the luxury property sector.",
   },
 ];
