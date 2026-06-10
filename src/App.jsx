@@ -7,7 +7,6 @@ import AboutPag from './page/AboutPag'
 import Work from './page/Work'
 import Details from './page/Details'
 import Servicesitem from './page/Servicesitem'
-import Process from './page/Process'
 const App = () => {
   return (
     
