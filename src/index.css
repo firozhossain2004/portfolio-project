@@ -1,46 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
-/* @font-face {
-  font-family: Englisch-Regular Italic;
-  src: url("../src/assets/fonts/Englisch-Regular\ Italic\ \(1\).otf");
-} */
-
-/* 
-@font-face {
-  font-family: "Englisch-Regular-Italic";
-  src: url("./assets/fonts/Englisch-Regular\ Italic\ \(1\).otf") format("opentype");
-  font-weight: normal;
-  font-style: italic;
-} */
-@font-face {
-  font-family: "Englisch";
-  src: url("./assets/fonts/Englisch-Light.otf");
-  font-weight: 300;
-}
 
 @font-face {
-  font-family: "Englisch";
-  src: url("./assets/fonts/Englisch-Regular-Italic.otf");
-  font-style: italic;
-  font-weight: 400;
-}
-
-@theme {
-  --font-luxury: "Cormorant Garamond", serif;
+  font-family:"Englisch" ;
+  src: url("./assets/fonts/Englisch-Regular\ Italic\ \(2\).otf");
 }
 
 @import "tailwindcss";
 
+@theme{
+  --font-primrie:Englisch,"sans-serif"
+}
+
 body {
   font-family: "Red Hat Display", sans-serif;
 }
-
-
-
-@theme {
-  --font-englisch: "Englisch", sans-serif;
-}
-
 
 @keyframes scroll {
   0% {

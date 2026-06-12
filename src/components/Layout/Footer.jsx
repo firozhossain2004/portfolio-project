@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <footer className="bg-black text-white ">
 
-      <div className=" mx-auto flex md:flex-3 gap-8 justify-between py-4 px-28 bg-[#0d0c0c]">
+      <div className=" mx-auto flex flex-1 md:flex-3 gap-8 justify-between py-4 px-28 bg-[#0d0c0c]">
 
 
         <div>
@@ -50,16 +50,10 @@ const Footer = () => {
           </div>
         </div>
 
-
-
-
-
-
-
       </div>
 
 
-      <div className="flex justify-between border-t bg-[#6650D7] py-10">
+      <div className="flex justify-between border-t bg-[#6650D7] py-4">
         <div className="  mt-10 pt-5 px-28  text-lg">
           © 2026 Raihan. All rights reserved.
         </div>

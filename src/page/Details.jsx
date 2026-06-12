@@ -42,69 +42,74 @@ const Details = () => {
                 coveted communities. Admire breathtaking, panoramic vistas from
                 the comfort of your own home.
             </h3>
-            <div  className="flex flex-1 md:flex-1 gap-6 mb-10 mt-10">
+            <div className="flex flex-1 md:flex-1 gap-6 mb-10 mt-10">
                 {/* big img */}
                 <img
                     src={item.caktagoreimg2}
                     alt=""
-                    className="w-full h-[600px] object-cover rounded-sm"
+                    className="w-full h-[700px] object-cover rounded-sm"
                 />
             </div>
 
             <div className="px-5 md:px-16 lg:px-32 py-16">
-                <div className="flex flex-1 md:flex-1 gap-6 mb-10">
+                <div className="flex flex-1 md:flex-1 gap-6 mb-10 justify-center">
                     <img
                         src={item.caktagoreimg2}
                         alt=""
-                        className="w-full h-[600px] object-cover rounded-sm"
+                        className="w-4xl h-[550px] object-cover rounded-sm "
                     />
                 </div>
                 <div>
                     <WorkSlider slides={sliderImages} />
                 </div>
 
-                <div className="flex flex-1 md:flex-1 gap-6 mb-10 mt-10">
+                <div className="flex flex-1 md:flex-1 gap-6 mb-10 mt-10 justify-center">
                     <img
                         src={item.caktagoreimg2}
                         alt=""
-                        className="w-full h-[600px] object-cover rounded-sm"
+                        className="w-4xl h-[550px] object-cover rounded-sm"
                     />
                 </div>
-                <div>
-                    <h4>{item.ProjectLocation}</h4>
-                </div>
+                <div className="px-40 grid grid-cols-1 md:grid-cols-2 w-2xl gap-8">
 
-                <div className="mt-24">
-
-
-
-                    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-5">
-
-                        {remainingProjects.map((project) => (
-                            <Link
-                                key={project.id}
-                                to={`/details/${project.id}`}
-                                className="group"
-                            >
-
-                                <div className="overflow-hidden rounded-2xl">
-                                    <img
-                                        src={project.img}
-                                        alt=""
-                                        className="w-full h-52 object-cover rounded-2xl group-hover:scale-110 transition duration-500"
-                                    />
-                                </div>
-
-                                <h3 className="text-xl font-semibold mt-4 group-hover:text-gray-400 transition text-center">
-                                    {project.category}
-                                </h3>
-
-                            </Link>
-                        ))}
-
+                    <div>
+                        <h3 className="text-[#6650D7]">Project Location</h3>
+                        <h4>{item.ProjectLocation}</h4>
+                    </div>
+                    <div>
+                        <h3 className="text-[#6650D7]">Completed</h3>
+                        <h4>{item.Completed}</h4>
+                    </div>
+                    <div>
+                        <h3 className="text-[#6650D7]">Client</h3>
+                        <h4>{item.Client}</h4>
+                    </div>
+                    <div>
+                        <h3 className="text-[#6650D7]">Credits</h3>
+                        <h4>{item.Credits}</h4>
                     </div>
                 </div>
+            </div>
+            <div className="mt-10 mb-10">
+                <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-3">
 
+                    {remainingProjects.map((project) => (
+                        <Link
+                            key={project.id}
+                            to={`/details/${project.id}`}
+                            className="group"
+                        >
+
+                            <div className="overflow-hidden rounded-sm">
+                                <img
+                                    src={project.img}
+                                    alt=""
+                                    className="w-full h-62 object-cover  group-hover:scale-110 transition duration-500"
+                                />
+                            </div>
+                        </Link>
+                    ))}
+                </div>
             </div>
         </div>
     );

@@ -16,11 +16,11 @@ const WorkSlider = ({ slides }) => {
   };
 
   return (
-    <div className="relative w-full">
+    <div className="relative w-4xl ml-40 ">
       <img
         src={slides[current]}
         alt=""
-        className="w-full h-[550px] object-cover rounded-sm"
+        className="w-full h-[550px] object-cover rounded-sm "
       />
 
       <button

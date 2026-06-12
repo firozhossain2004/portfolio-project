@@ -10,9 +10,9 @@ const Clients = () => {
                     CLIENT STORIES
                 </h4>
 
-                <h1 className='text-3xl md:text-6xl'>
-                    My Clients Love to <br />
-                    <span className='tracking-wide font-luxury  italic'>Recommend me</span>
+                <h1 className='text-3xl md:text-6xl '>
+                    <span className='font-semibold'>My Clients Love to</span> <br />
+                    <span className='font-primrie'>Recommend Me</span>
                 </h1>
             </div>
 

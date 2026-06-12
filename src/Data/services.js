@@ -12,7 +12,7 @@ const servicesData = [
     title: "Brand Identity",
     highlight: "Design",
     description:
-      "UI/UX Design, App Design, Website Design, Dashboard Design, Webflow Development, Mobile App Design",
+      "Logo Design | Brand Guidelines | Color Palette |Stationery | Business Cards | Postcards & Mailers",
 
     features: [
       "Brand Identity Design",
@@ -28,15 +28,15 @@ const servicesData = [
 
   {
     id: 2,
-    title: "Marketing",
+    title: "Brochure & Catalog Design",
     highlight: "Graphics",
     description:
-      "Social Media Design, Ad Creatives, Banner Design, Poster Design, Campaign Visuals, Print Materials",
+      "Luxury Print Materials | Property Brochures |Catalogs | Company Profiles | Annual Reports",
 
     features: [
-      "Social Media Posts",
-      "Creative Ad Designs",
-      "Flyers & Brochures",
+      "Luxury Property Brochures",
+      "Real Estate Catalogs & Lookbooks",
+      "Company Profiles & Annual Reports",
     ],
 
     images: {
@@ -47,17 +47,17 @@ const servicesData = [
 
   {
     id: 3,
-    title: "UI/UX",
+    title: "Marketing Graphics",
     highlight: "Experience",
     description:
-      "Website UI Design, Mobile App UI, Dashboard UX, User Research, Wireframing, Prototyping",
+      "Social Media Design | Ad Creatives | Banner Design |Signage Design | Poster Design | Campaign Visuals |Print Material",
 
     features: [
-      "Modern UI Design",
-      "User Experience Optimization",
-      "Interactive Prototypes",
+      "Open House & Signage Design",
+      "Social Media Posts & Ad Creatives",
+      "Flyers, Posters & Campaign Visuals",
+      "Print-Ready Marketing Collateral",
     ],
-
     images: {
       main: img3,
       secondary: img33,

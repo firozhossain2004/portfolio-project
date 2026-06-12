@@ -54,9 +54,7 @@ const Navebare = () => {
           <Link onClick={() => setOpen(false)} to="/services">
             Services
           </Link>
-          <Link onClick={() => setOpen(false)} to="/process">
-            Process
-          </Link>
+          
 
           <Link
             onClick={() => setOpen(false)}

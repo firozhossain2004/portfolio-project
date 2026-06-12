@@ -4,8 +4,8 @@ const WorkExperience = () => {
     return (
         <div className='px-10 md:px-24 mt-28 mb-28 md:flex gap-10'>
 
-            <h1 className='text-5xl font-medium'>
-                Work <span className='font-luxury italic tracking-wide'>Experience</span>
+            <h1 className='text-6xl '>
+               <span className='font-semibold'> Work </span><span className='font-primrie'>Experience</span>
             </h1>
 
             <div className='px-4 mt-11'>
@@ -16,13 +16,13 @@ const WorkExperience = () => {
                     >
                         <div className='flex justify-between'>
                             <div>
-                                <h1 className='text-xl'>{item.company}</h1>
-                                <p className='text-sm text-gray-400'>
+                                <h1 className='text-xl font-semibold'>{item.company}</h1>
+                                <p className='text-sm  '>
                                     {item.role}
                                 </p>
                             </div>
 
-                            <p className='text-xs  text-gray-400'>
+                            <p className='text-sm  text-gray-500'>
                                 {item.duration}
                             </p>
                         </div>

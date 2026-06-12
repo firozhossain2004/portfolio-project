@@ -32,8 +32,8 @@ const Work = () => {
  
       <div className="flex justify-center">
         <h1 className="text-2xl sm:text-3xl md:text-5xl text-center max-w-xl mb-10 leading-tight">
-          <span className="font-Englisc">Designs</span> That Speak Results That{" "}
-          <span className="font-Englisc">Matter</span>
+          <span className="font-primrie">Designs</span> <span className="font-semibold">That Speak Results That</span>{" "}
+          <span className="font-primrie">Matter</span>
         </h1>
       </div>
  <div className="flex flex-wrap justify-center gap-2 md:gap-3 mb-8">
@@ -42,7 +42,7 @@ const Work = () => {
           <button
             key={cat}
             onClick={() => setFilter(cat)}
-            className={`px-3 md:px-4 py-1.5 md:py-2 text-xs md:text-sm  border-2 rounded-sm transition font-semibold
+            className={`px-3 md:px-4 py-1.5 md:py-2 text-xs md:text-sm  border-2 rounded-xl transition font-semibold
               ${
                 filter === cat
                   ? "bg-white text-black border-white"

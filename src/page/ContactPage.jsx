@@ -11,7 +11,7 @@ const ContactPage = () => {
       <div className="text-center max-w-3xl mx-auto">
         <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl leading-tight">
           Have a Question or <br />
-          <span className="font-luxury italic tracking-wide">
+          <span className="font-primrie">
             Just Want to Chat?
           </span>
         </h1>
@@ -33,9 +33,9 @@ const ContactPage = () => {
           FREQUENTLY ASKED QUESTIONS
         </h5>
 
-        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight">
+        <h2 className="text-xl sm:text-3xl md:text-6xl  leading-tight">
           Your Questions <br />
-          <span className="font-luxury italic tracking-wide">Answered!</span>
+          <span className="font-primrie">Answered!</span>
         </h2>
       </div>
 

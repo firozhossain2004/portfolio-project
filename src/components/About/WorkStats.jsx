@@ -4,7 +4,7 @@ const WorkStats = () => {
     return (
         <div>
             <div className='text-center mb-15'>
-                <h1 className='text-5xl'>Work <span className='font-luxury italic tracking-wide'>Stats</span></h1>
+                <h1 className='text-5xl'><span className='font-semibold'>Work</span> <span className='font-primrie'>Stats</span></h1>
             </div>
 
             <div>

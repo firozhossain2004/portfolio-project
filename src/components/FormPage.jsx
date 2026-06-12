@@ -8,27 +8,27 @@ const FormPage = () => {
             <div className='w-2xl space-y-15'>
                 <h1 className='text-4xl'>
                     Tell Me Your Amazing <br />
-                    <span className='font-luxury italic tracking-wide'>Project Here</span>
+                    <span className='font-primrie'>Project Here</span>
                 </h1>
                 <div className='w-xs '>
                     <p className='flex items-center gap-1.5 text-gray-400 '>
                         <span className="text-[#6650D7] text-2xl">•</span>
-                        Expect a response within 24 hours.
+                       <span className='text-sm'> Expect a response within 24 hours.</span>
                     </p>
                     <p className='flex items-center gap-1.5 text-gray-400 '>
                         <span className="text-[#6650D7] text-2xl">•</span>
-                        Happy to sign an NDA upon request.
+                        <span className='text-sm'>Happy to sign an NDA upon request.</span>
                     </p>
                     <p className='flex items-center gap-1.5 text-gray-400 '>
                         <span className="text-[#6650D7] text-2xl">•</span>
-                        Dedicated support from a luxury design
-                        specialist.
+                       <span className='text-sm'> Dedicated support from a luxury design
+                        specialist.</span>
                     </p>
 
                 </div>
                 <div className='space-y-6'>
                     <div>
-                        <h3>My Email</h3>
+                        <h3 cla>My Email</h3>
                         <p className='text-sm text-gray-400'>b4raihan@gmail.com</p>
                     </div>
                     <div>

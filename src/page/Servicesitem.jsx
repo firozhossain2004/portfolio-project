@@ -12,9 +12,9 @@ const Servicesitem = () => {
           WHAT I DO
         </h4>
 
-        <h1 className="text-2xl sm:text-3xl md:text-5xl mt-4 md:mt-6 leading-tight">
-          I Design <span className="font-luxury italic tracking-wide">Brands</span> That{" "}
-          <span className="font-luxury italic tracking-wide">Speak</span> to Audiences
+        <h1 className="text-2xl sm:text-3xl md:text-5xl mt-4 md:mt-6 ">
+          <span className="font-semibold">I Design</span> <span className="font-primrie tracking-wide">Brands</span> <span className="font-semibold">That</span>{" "}
+          <span className="font-primrie tracking-wide">Speak</span> <span className="font-semibold">to Audiences</span>
         </h1>
       </div>
 
@@ -24,23 +24,23 @@ const Servicesitem = () => {
         {servicesData.map((item, index) => (
           <div
             key={index}
-            className="flex flex-col md:flex-row items-center gap-10 md:gap-36"
+            className="flex flex-col md:flex-row items-center gap-10 md:gap-48"
           >
 
 
             <div className="max-w-md space-y-6 text-center md:text-left">
-              <h2 className="text-xl md:text-3xl">
+              <h2 className="text-xl md:text-2xl font-semibold">
                 {item.title}{" "}
-                <span className="italic text-gray-400">
+                <span className="font-primrie  text-gray-400">
                   {item.highlight}
                 </span>
               </h2>
 
-              <p className="text-sm md:text-base text-gray-400">
+              <p className="text-xs md:text-xs text-gray-400 w-xs">
                 {item.description}
               </p>
 
-              <ul className="space-y-2 text-sm md:text-base">
+              <ul className="space-y-2 text-sm md:text-base text-gray-400 ">
                 {item.features.map((f, i) => (
                   <li key={i}>
                     <span className="text-[#6650D7] text-lg">•</span> {f}
@@ -54,7 +54,7 @@ const Servicesitem = () => {
               <img
                 src={item.images.main}
                 alt=""
-                className="absolute top-0 md:-ml-44 w-40 sm:w-48 md:w-64 h-60 md:h-80 object-cover rounded-xl border"
+                className="absolute top-20 md:-ml-40 w-40 sm:w-48 md:w-64 h-60 md:h-80 object-cover rounded-xl border"
               />
 
               <img

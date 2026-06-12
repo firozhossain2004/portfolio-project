@@ -11,10 +11,10 @@ const WhyChooseMe = () => {
                     WHY CHOOSE ME
                 </h6>
 
-                <h1 className='text-2xl md:text-4xl lg:text-5xl leading-snug md:w-2xl'>
-                    I <span className='font-luxury italic tracking-wide'>Design </span> for the
-                    <span className='font-luxury italic tracking-wide'> Future</span> to Drive
-                    Today’s <span className='font-luxury italic tracking-wide'>Success </span>
+                <h1 className='text-2xl md:text-4xl lg:text-6xl md:w-3xl '>
+                    I <span className='font-primrie'>Design </span> <span className='font-semibold'>for the</span>
+                    <span className='font-primrie'> Future</span> <span className='font-semibold'>to Drive
+                    Today’s</span> <span className='font-primrie'>Success </span>
                 </h1>
             </div>
 
@@ -36,7 +36,6 @@ const WhyChooseMe = () => {
                         </div>
                     ))}
                 </div>
-
             </div>
         </div>
     )
