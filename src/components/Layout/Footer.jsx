@@ -8,70 +8,114 @@ import { CiFacebook } from "react-icons/ci";
 import { FaXTwitter } from "react-icons/fa6";
 const Footer = () => {
   return (
-    <footer className="bg-black text-white ">
+    <footer className="bg-black text-white">
+  <div className=" mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 px-6 md:px-20 py-12 bg-[#0d0c0c]">
 
-      <div className=" mx-auto flex flex-1 md:flex-3 gap-8 justify-between py-4 px-28 bg-[#0d0c0c]">
-
-
-        <div>
-          <div className="w-20 md:w-28 ">
-          <Link to="/">
-            <img src={logo} alt="Logo" />
-          </Link>
-          </div>
-          <div className="mt-10">
-            <p className="mt-3 text-gray-500 text-sm ">
-              Real Estate Branding &
-            </p>
-            <p className="text-gray-500 text-sm"> Marketing Designer</p>
-          </div>
-        </div>
-
-
-        <div>
-          <h3 className="text-lg font-semibold mb-10">Quick Links</h3>
-          <ul className="space-y-2 flex flex-col text-gray-500">
-            <Link to={'/'} className="hover:text-fuchsia-500 transition duration-300 cursor-pointer">Home</Link>
-            <Link to={"/About"} className="hover:text-fuchsia-500 transition duration-300 cursor-pointer">About</Link>
-            <Link to={"/Work"} className="hover:text-fuchsia-500 transition duration-300 cursor-pointer">Work</Link>
-            <Link to={"/services"} className="hover:text-fuchsia-500 transition duration-300 cursor-pointer">Services</Link>
-            <Link to={"/process"} className="hover:text-fuchsia-500 transition duration-300 cursor-pointer">Process</Link>
-          </ul>
-        </div>
-        <div className="space-y-2">
-          <h2 className="text-lg font-semibold mb-10">Contact</h2>
-          <div className="mb-3 text-gray-500">
-            <p>+880 164 662 6226</p>
-            <p>info@raihanux.com</p>
-          </div>
-          <div className="text-gray-500">
-            <p>Satkhira, Khulna, Bangladesh</p>
-            <p>9400</p>
-          </div>
-        </div>
-
+    {/* Logo */}
+    <div>
+      <div className="w-24 md:w-28">
+        <Link to="/">
+          <img src={logo} alt="Logo" />
+        </Link>
       </div>
 
+      <div className="mt-6">
+        <p className="text-gray-500 text-sm">
+          Real Estate Branding &
+        </p>
+        <p className="text-gray-500 text-sm">
+          Marketing Designer
+        </p>
+      </div>
+    </div>
 
-      <div className="flex justify-between border-t bg-[#6650D7] py-4">
-        <div className="  mt-10 pt-5 px-28  text-lg">
-          © 2026 Raihan. All rights reserved.
-        </div>
-        <div className="flex mt-10 pt-5 gap-8 px-28 text-gray-200">
-          <h3 className="text-lg  mb-3 text-white">Follow Me</h3>
-          <div className="flex gap-4">
-            <a href="#" className="hover:text-fuchsia-500  transition duration-300"><FaBehance size={24} /></a>
-            <a href="#" className="hover:text-fuchsia-500 transition duration-300"><FaDribbble size={24} /></a>
-            <a href="#" className="hover:text-fuchsia-500 transition duration-300"><CiLinkedin size={24} /></a>
-            <a href="#" className="hover:text-fuchsia-500 transition duration-300"><CiInstagram size={24} /></a>
-            <a href="#" className="hover:text-fuchsia-500 transition duration-300"><CiFacebook size={24} /></a>
-            <a href="#" className="hover:text-fuchsia-500 transition duration-300"><FaXTwitter size={24} /></a>
-          </div>
-        </div>
+    {/* Links */}
+    <div>
+      <h3 className="text-lg font-semibold mb-6">
+        Quick Links
+      </h3>
+
+      <ul className="space-y-3 flex flex-col text-gray-500">
+        <Link to="/" className="hover:text-fuchsia-500">
+          Home
+        </Link>
+
+        <Link to="/about" className="hover:text-fuchsia-500">
+          About
+        </Link>
+
+        <Link to="/work" className="hover:text-fuchsia-500">
+          Work
+        </Link>
+
+        <Link to="/services" className="hover:text-fuchsia-500">
+          Services
+        </Link>
+
+        <Link to="/process" className="hover:text-fuchsia-500">
+          Process
+        </Link>
+      </ul>
+    </div>
+
+    {/* Contact */}
+    <div>
+      <h2 className="text-lg font-semibold mb-6">
+        Contact
+      </h2>
+
+      <div className="mb-4 text-gray-500">
+        <p>+880 164 662 6226</p>
+        <p>info@raihanux.com</p>
       </div>
 
+      <div className="text-gray-500">
+        <p>Satkhira, Khulna, Bangladesh</p>
+        <p>9400</p>
+      </div>
+    </div>
+  </div>
 
-    </footer>
+  {/* Bottom Bar */}
+  <div className="bg-[#6650D7] px-6 md:px-20 py-15 ">
+    <div className="flex flex-col md:flex-row justify-between items-center gap-4 ">
+
+      <p className="text-sm md:text-base text-center">
+        © 2026 Raihan. All rights reserved.
+      </p>
+
+      <div className="flex items-center gap-4 flex-wrap justify-center">
+        <span className="font-medium">
+          Follow Me
+        </span>
+
+        <a href="#">
+          <FaBehance size={22} />
+        </a>
+
+        <a href="#">
+          <FaDribbble size={22} />
+        </a>
+
+        <a href="#">
+          <CiLinkedin size={22} />
+        </a>
+
+        <a href="#">
+          <CiInstagram size={22} />
+        </a>
+
+        <a href="#">
+          <CiFacebook size={22} />
+        </a>
+
+        <a href="#">
+          <FaXTwitter size={22} />
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
   );
 };
 

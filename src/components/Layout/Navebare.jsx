@@ -7,7 +7,7 @@ const Navebare = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="sticky top-3 md:top-0 z-50 bg-black text-white px-4 md:px-28 py-4">
+    <nav className="sticky top-0 md:top-0 z-50 bg-black text-white px-4 md:px-28 py-4">
 
       <div className="flex justify-between items-center">
 

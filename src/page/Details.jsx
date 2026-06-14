@@ -36,7 +36,7 @@ const Details = () => {
                 </div>
 
             </div>
-            <h3 className="text-2xl text-center w-3xl mx-auto mt-28 mb-28">
+            <h3 className=" text-base sm:text-lg md:text-xl lg:text-2xl text-center max-w-3xl mx-auto mt-12 md:mt-20 lg:mt-28 mb-12 md:mb-20 lg:mb-28 px-4 leading-relaxed ">
                 Setting a new gold standard for Green Square, this cornerstone
                 residential tower stands tall above one of Sydney’s most vibrant and
                 coveted communities. Admire breathtaking, panoramic vistas from
@@ -56,7 +56,7 @@ const Details = () => {
                     <img
                         src={item.caktagoreimg2}
                         alt=""
-                        className="w-4xl h-[550px] object-cover rounded-sm "
+                        className="w-6xl h-[650px] object-cover rounded-sm "
                     />
                 </div>
                 <div>
@@ -67,10 +67,10 @@ const Details = () => {
                     <img
                         src={item.caktagoreimg2}
                         alt=""
-                        className="w-4xl h-[550px] object-cover rounded-sm"
+                        className="w-6xl h-[650px] object-cover rounded-sm"
                     />
                 </div>
-                <div className="px-40 grid grid-cols-1 md:grid-cols-2 w-2xl gap-8">
+                <div className="px-10 grid grid-cols-1 md:grid-cols-2 w-xl gap-8">
 
                     <div>
                         <h3 className="text-[#6650D7]">Project Location</h3>
@@ -90,28 +90,36 @@ const Details = () => {
                     </div>
                 </div>
             </div>
-            <div className="mt-10 mb-10">
-                <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-3">
-
-                    {remainingProjects.map((project) => (
-                        <Link
-                            key={project.id}
-                            to={`/details/${project.id}`}
-                            className="group"
-                        >
-
-                            <div className="overflow-hidden rounded-sm">
-                                <img
-                                    src={project.img}
-                                    alt=""
-                                    className="w-full h-62 object-cover  group-hover:scale-110 transition duration-500"
-                                />
-                            </div>
-                        </Link>
-                    ))}
-                </div>
-            </div>
+<div className="mt-10 mb-10">
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
+    {remainingProjects.map((project) => (
+      <Link
+        key={project.id}
+        to={`/details/${project.id}`}
+        className="group block"
+      >
+        <div className="overflow-hidden rounded-lg">
+          <img
+            src={project.img}
+            alt={project.title}
+            className="
+              w-full
+              h-64
+              sm:h-72
+              md:h-80
+              object-cover
+              transition-transform
+              duration-500
+              group-hover:scale-110
+            "
+          />
         </div>
+      </Link>
+    ))}
+  </div>
+</div>
+
+  </div>
     );
 };
 

@@ -33,8 +33,8 @@ const ContactPage = () => {
           FREQUENTLY ASKED QUESTIONS
         </h5>
 
-        <h2 className="text-xl sm:text-3xl md:text-6xl  leading-tight">
-          Your Questions <br />
+        <h2 className="text-xl sm:text-3xl md:text-6xl  leading-tight ">
+          <span className="font-semibold">Your Questions</span> <br />
           <span className="font-primrie">Answered!</span>
         </h2>
       </div>

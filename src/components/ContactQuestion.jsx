@@ -4,27 +4,33 @@ import { ChevronDown } from "lucide-react";
 const faqs = [
   {
     id: 1,
-    question: "How Long Does a Design Project Take?",
+    question: "How long does a design project take?",
     answer:
-      "At Design Monks, we understand that each project is unique. Usually, our design process takes a few weeks depending on the project's complexity and scope.",
+      "Every project is different. A luxury brochure typically takes 7–14 business days, depending on thenumber of pages, complexity of content, and revision rounds. I'll always provide a clear timelinebefore we begin so you know exactly what to expect",
   },
   {
     id: 2,
-    question: "How Long Does a Design Project Take?",
+    question: "How many revisions are included?",
     answer:
-      "We begin with research and planning, followed by design iterations and feedback sessions.",
+      "I offer unlimited revisions throughout the entire design process. My goal is to deliver a result you'regenuinely proud of — I don't stop until it's exactly right.",
   },
   {
     id: 3,
-    question: "How Long Does a Design Project Take?",
+    question: "Do you sign an NDA before starting a project?",
     answer:
-      "This collaborative approach ensures the final design aligns perfectly with your goals.",
+      "Absolutely. Client confidentiality is a priority for me. I'm happy to sign a Non-Disclosure Agreementbefore any project details are shared, ensuring your brand strategy and assetsremain completelyprivate",
   },
   {
     id: 4,
-    question: "How Long Does a Design Project Take?",
+    question: "What file formats will I receive upon delivery?",
     answer:
-      "Timeline depends on complexity, revisions, and communication speed.",
+      "IYou'll receive print-ready PDF files along with all original source files — typically in Adobe InDesign and Illustrator formats — so you have full ownership and flexibility for future use.",
+  },
+  {
+    id: 5,
+    question: "What software do you use for your designs?",
+    answer:
+      "I work primarily with Adobe InDesign for layout and publication design, and Adobe Illustrator andPhotoshop for brand identity and visual assets. All deliverables are producedat professional printquality",
   },
 ];
 
