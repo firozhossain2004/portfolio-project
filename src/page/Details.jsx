@@ -16,13 +16,7 @@ const Details = () => {
             </div>
         );
     }
-    const sliderImages = [
-        item.img,
-        item.caktagoreimg2,
-        item.caktagoreimg3,
-        item.caktagoreimg4,
-        item.caktagoreimg5,
-    ].filter(Boolean);
+    const sliderImages = item.images || [];
     return (
         <div className="bg-black text-white min-h-screen">
             <div
@@ -42,34 +36,39 @@ const Details = () => {
                 coveted communities. Admire breathtaking, panoramic vistas from
                 the comfort of your own home.
             </h3>
-            <div className="flex flex-1 md:flex-1 gap-6 mb-10 mt-10">
-                {/* big img */}
-                <img
-                    src={item.caktagoreimg2}
-                    alt=""
-                    className="w-full h-[700px] object-cover rounded-sm"
-                />
-            </div>
-
-            <div className="px-5 md:px-16 lg:px-32 py-16">
-                <div className="flex flex-1 md:flex-1 gap-6 mb-10 justify-center">
+            {item.images?.[1] && (
+                <div className="flex gap-6 mb-10 mt-10">
                     <img
-                        src={item.caktagoreimg2}
+                        src={item.images[1]}
                         alt=""
-                        className="w-6xl h-[650px] object-cover rounded-sm "
+                        className="w-full h-[700px] object-cover rounded-sm"
                     />
                 </div>
+            )}
+
+            <div className="px-5 md:px-16 lg:px-32 py-16">
+                {item.images?.[2] && (
+                    <div className="flex justify-center mb-10">
+                        <img
+                            src={item.images[2]}
+                            alt=""
+                            className="w-full max-w-6xl h-[650px] object-cover rounded-sm"
+                        />
+                    </div>
+                )}
                 <div>
                     <WorkSlider slides={sliderImages} />
                 </div>
 
-                <div className="flex flex-1 md:flex-1 gap-6 mb-10 mt-10 justify-center">
-                    <img
-                        src={item.caktagoreimg2}
-                        alt=""
-                        className="w-6xl h-[650px] object-cover rounded-sm"
-                    />
-                </div>
+                {item.images?.[3] && (
+                    <div className="flex justify-center mt-10 mb-10">
+                        <img
+                            src={item.images[3]}
+                            alt=""
+                            className="w-full max-w-6xl h-[650px] object-cover rounded-sm"
+                        />
+                    </div>
+                )}
                 <div className="px-10 grid grid-cols-1 md:grid-cols-2 w-xl gap-8">
 
                     <div>
@@ -90,36 +89,36 @@ const Details = () => {
                     </div>
                 </div>
             </div>
-<div className="mt-10 mb-10">
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
-    {remainingProjects.map((project) => (
-      <Link
-        key={project.id}
-        to={`/details/${project.id}`}
-        className="group block"
-      >
-        <div className="overflow-hidden rounded-lg">
-          <img
-            src={project.img}
-            alt={project.title}
-            className="
+            <div className="mt-10 mb-10">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
+                    {remainingProjects.map((project) => (
+                        <Link
+                            key={project.id}
+                            to={`/details/${project.id}`}
+                            className="group block"
+                        >
+                            <div className="overflow-hidden rounded-lg">
+                                <img
+                                    src={project.img}
+                                    alt={project.title}
+                                    className="
               w-full
               h-64
               sm:h-72
-              md:h-80
+              md:h-64
               object-cover
               transition-transform
               duration-500
               group-hover:scale-110
             "
-          />
-        </div>
-      </Link>
-    ))}
-  </div>
-</div>
+                                />
+                            </div>
+                        </Link>
+                    ))}
+                </div>
+            </div>
 
-  </div>
+        </div>
     );
 };
 

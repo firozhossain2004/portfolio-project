@@ -4,6 +4,26 @@ import img3 from '../assets/workimg/img1.jpg'
 import img4 from '../assets/workimg/T (1).jpg'
 import img5 from '../assets/workimg/T Cover copy (1).png'
 import img6 from '../assets/workimg/Tamplet (1).jpg'
+import brochure1 from "../assets/workimg/Branding/brochure1.jpg.jpg";
+import brochure2 from "../assets/workimg/Branding/brochure2.jpg.jpg";
+import brochure3 from "../assets/workimg/Branding/brochure3.jpg.jpg";
+import brochure4 from "../assets/workimg/Branding/brochure4.jpg.jpg";
+import brochure5 from "../assets/workimg/Branding/brochure5.jpg.jpg";
+import brochure6 from "../assets/workimg/Branding/brochure6.jpg.jpg";
+import brochure7 from "../assets/workimg/Branding/brochure7.jpg.jpg";
+import brochure8 from "../assets/workimg/Branding/brochure8.jpg.jpg";
+import brochure9 from "../assets/workimg/Branding/brochure9.jpg.jpg";
+import brochure10 from "../assets/workimg/Branding/brochure10.jpg.jpg";
+import Poster1 from '../assets/workimg/Arobic/Brouchure1.png'
+import Poster2 from '../assets/workimg/Arobic/Brouchure2.jpg'
+import Poster3 from '../assets/workimg/Arobic/Brouchure3.jpg'
+import Poster4 from '../assets/workimg/Arobic/Brouchure4.jpg'
+import Poster5 from '../assets/workimg/Arobic/Brouchure5.jpg'
+import Poster6 from '../assets/workimg/Arobic/Brouchure6.jpg'
+import Poster7 from '../assets/workimg/Arobic/Brouchure7.jpg'
+import Poster8 from '../assets/workimg/Arobic/Brouchure8.jpg'
+import Poster9 from '../assets/workimg/Arobic/Brouchure9.jpg'
+import Poster10 from '../assets/workimg/Arobic/Brouchure10.jpg'
 const data = [
   {
     id: 1,
@@ -15,10 +35,19 @@ const data = [
     Credits: "RAIHAN",
     img: img1,
     desc: "Luxury brochure design",
-    caktagoreimg2: img2,
-    caktagoreimg3: img3,
-    caktagoreimg4: img4,
-    caktagoreimg5: img5
+    images: [
+      brochure1,
+      brochure2,
+      brochure3,
+      brochure4,
+      brochure5,
+      brochure6,
+      brochure7,
+      brochure8,
+      brochure9,
+      brochure10,
+    ],
+
   },
   {
     id: 2,
@@ -30,10 +59,18 @@ const data = [
     Credits: "RAIHAN",
     img: img2,
     desc: "Modern catalog layout",
-    caktagoreimg2: img2,
-    caktagoreimg3: img3,
-    caktagoreimg4: img4,
-    caktagoreimg5: img5
+    images: [
+      Poster1,
+      Poster2,
+      Poster3,
+      Poster4,
+      Poster5,
+      Poster6,
+      Poster7,
+      Poster8,
+      Poster9,
+      Poster10,
+    ],
   },
   {
     id: 3,

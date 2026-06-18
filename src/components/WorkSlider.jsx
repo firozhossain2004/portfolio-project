@@ -23,11 +23,9 @@ const WorkSlider = ({ slides }) => {
         alt=""
         className="
           w-full
-          md:w-6xl
+          
           h-[250px]
-          sm:h-[350px]
-          md:h-[500px]
-          lg:h-[650px]
+          h-auto
           object-cover
           rounded-md
         "
@@ -51,8 +49,6 @@ const WorkSlider = ({ slides }) => {
       >
         ←
       </button>
-
-  
       <button
         onClick={next}
         className="
@@ -71,7 +67,7 @@ const WorkSlider = ({ slides }) => {
         →
       </button>
 
-      {/* Dots */}
+     
       <div className="flex justify-center gap-2 mt-4">
         {slides.map((_, i) => (
           <button

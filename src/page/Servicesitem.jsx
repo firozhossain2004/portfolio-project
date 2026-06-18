@@ -4,7 +4,7 @@ import Process from "./Process";
 
 const Servicesitem = () => {
   return (
-    <div className="bg-black text-white px-4 md:px-24 py-16">
+    <div className="bg-black text-white px-4 md:px-28 py-16">
 
 
       <div className="text-center md:text-left max-w-3xl mx-auto md:mx-0">
