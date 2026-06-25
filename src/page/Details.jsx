@@ -36,17 +36,19 @@ const Details = () => {
                 coveted communities. Admire breathtaking, panoramic vistas from
                 the comfort of your own home.
             </h3>
-            {item.images?.[1] && (
-                <div className="flex gap-6 mb-10 mt-10">
-                    <img
-                        src={item.images[1]}
-                        alt=""
-                        className="w-full h-[700px] object-cover rounded-sm"
-                    />
-                </div>
-            )}
+            <div className="px-5 md:px-28  py-16">
+                {item.images?.[1] && (
+                    <div className="flex gap-6 mb-10 mt-10">
+                        <img
+                            src={item.images[1]}
+                            alt=""
+                            className="w-full h-[800px] object-cover rounded-sm"
+                        />
+                    </div>
+                )}
+            </div>
 
-            <div className="px-5 md:px-16 lg:px-32 py-16">
+            <div className="px-5 md:px-16 lg:px-60  py-16">
                 {item.images?.[2] && (
                     <div className="flex justify-center mb-10">
                         <img

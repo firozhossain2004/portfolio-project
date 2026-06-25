@@ -23,9 +23,11 @@ const WorkSlider = ({ slides }) => {
         alt=""
         className="
           w-full
-          
+          md:w-6xl
           h-[250px]
-          h-auto
+          sm:h-[350px]
+          md:h-[500px]
+          lg:h-[650px]
           object-cover
           rounded-md
         "

@@ -12,7 +12,7 @@ const Count = () => {
 
                 <div>
                     <LogoCount end={20} />
-                    <p className='text-sm text-gray-400 w-36'>Countries with
+                    <p className='text-[16px] text-gray-400 w-36'>Countries with
                         Global Luxury Clients</p>
                 </div>
 

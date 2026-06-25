@@ -24,7 +24,7 @@ const LatestPortfolio = () => {
               onClick={() =>
                 navigate(`/details/${portfolioItems[0].id}`)
               }
-              className="w-full md:w-[40%] h-64 md:h-96 rounded-2xl overflow-hidden relative group cursor-pointer"
+              className="w-full md:w-[37%] h-64 md:h-80 rounded-2xl overflow-hidden relative group cursor-pointer"
             >
               <img
                 src={portfolioItems[0].img}
@@ -58,7 +58,7 @@ const LatestPortfolio = () => {
             onClick={() =>
               navigate(`/details/${portfolioItems[2].id}`)
             }
-            className="w-full md:w-[60%] mx-auto h-64 md:h-96 rounded-2xl mb-10 relative group overflow-hidden cursor-pointer"
+            className="w-full md:w-[60%] mx-auto h-64 md:h-[450px] rounded-2xl mb-10 relative group overflow-hidden cursor-pointer"
           >
             <img
               src={portfolioItems[2].img}
@@ -92,7 +92,7 @@ const LatestPortfolio = () => {
               onClick={() =>
                 navigate(`/details/${portfolioItems[4].id}`)
               }
-              className="w-full md:w-[40%] h-64 md:h-96 rounded-2xl overflow-hidden relative group cursor-pointer"
+              className="w-full md:w-[40%] h-64 md:h-80  rounded-2xl overflow-hidden relative group cursor-pointer"
             >
               <img
                 src={portfolioItems[4].img}

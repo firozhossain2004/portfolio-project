@@ -10,9 +10,9 @@ const Hero = () => {
             <div className="w-full h-52 md:h-screen  bg-cover object-cover bg-no-repeat rounded-2xl" style={{ backgroundImage: `url(${heroimg})` }}>
             </div>
             <div className='text-center mx-auto py-10 md:py-20 space-y-4 px-3'>
-                <h1 className='text-2xl md:text-6xl  py-4 leading-tight'>
-                    <span className=' font-primrie'>Luxury</span> Real Estate <br />
-                    Branding That Sells <span className='font-primrie italic '>Dreams</span>
+                <h1 className='text-2xl md:text-[56px]  py-4 leading-tight'>
+                    <span className=' font-primrie'>Luxury</span> <span className='font-semibold'>Real Estate</span> <br />
+                    <span className='font-semibold'>Branding That Sells</span> <span className='font-primrie italic '>Dreams</span>
                 </h1>
                 <p>Trusted by brands in 20+ countries</p>
                 <Link
