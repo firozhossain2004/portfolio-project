@@ -7,7 +7,7 @@ const Count = () => {
 
                 <div>
                     <LogoCount end={4} />
-                    <p className='text-sm text-gray-400 w-17'>Years of Experience</p>
+                    <p className='text-[16px] text-gray-400 w-17'>Years of Experience</p>
                 </div>
 
                 <div>
@@ -18,13 +18,13 @@ const Count = () => {
 
                 <div>
                     <LogoCount end={150} />
-                    <p className='text-sm text-gray-400 w-32'>Elite Real Estat
+                    <p className='text-[16px] text-gray-400 w-32'>Elite Real Estat
                         Brands & Agencies</p>
                 </div>
 
                 <div>
                     <LogoCount end={500} />
-                    <p className='text-sm text-gray-400 w-44'>High-End Projects
+                    <p className='text-[16px] text-gray-400 w-44'>High-End Projects
                         Delivered with Distinction</p>
                 </div>
 

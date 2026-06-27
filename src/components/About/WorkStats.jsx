@@ -9,8 +9,8 @@ const WorkStats = () => {
 
             <div>
                 <div className='md:flex flex-2 justify-between px-40 md:px-50 items-center mb-10'>
-                    <div>
-                        <div className='space-y-10 md:flex items-center gap-44 '>
+             
+                        <div className='space-y-10 md:flex items-center gap-40 '>
 
                             <div>
                                 <div className='md:ml-10'>
@@ -34,7 +34,7 @@ const WorkStats = () => {
                                     Satisfaction Rate</p>
                             </div>
                         </div>
-                    </div>
+                   
 
                 </div>
             </div>

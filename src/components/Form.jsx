@@ -33,12 +33,12 @@ const Form = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="w-full max-w-3xl mx-auto bg-black/40 p-5 md:p-8 rounded-2xl space-y-5"
+      className=" max-w-xl mx-auto bg-black/40 p-5 md:p-8 rounded-2xl space-y-5"
     >
 
  
       <div>
-        <label className="block mb-2 text-sm md:text-base">Full Name</label>
+        <label className="block mb-2 text-sm md:text-[20px]">Full Name</label>
         <input
           type="text"
           name="name"
@@ -52,7 +52,7 @@ const Form = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         
         <div>
-          <label className="block mb-2 text-sm md:text-base">Email</label>
+          <label className="block mb-2 text-sm  md:text-[20px]">Email</label>
           <input
             type="email"
             name="email"
@@ -71,7 +71,7 @@ const Form = () => {
             name="whatsapp"
             placeholder="01XXXXXXXXX"
             onChange={handleChange}
-            className="w-full p-3 text-sm md:text-base bg-black/60 border border-gray-600 rounded-lg outline-none focus:border-purple-500"
+            className="w-full p-3 text-sm  md:text-[20px] bg-black/60 border border-gray-600 rounded-lg outline-none focus:border-purple-500"
           />
         </div>
 
@@ -79,7 +79,7 @@ const Form = () => {
 
  
       <div>
-        <label className="block mb-2 text-sm md:text-base">
+        <label className="block mb-2 text-sm  md:text-[20px]">
           Project Budget
         </label>
 
@@ -103,7 +103,7 @@ const Form = () => {
       </div>
 
       <div>
-        <label className="block mb-2 text-sm md:text-base">
+        <label className="block mb-2 text-sm  md:text-[20px]">
           Project Details
         </label>
 

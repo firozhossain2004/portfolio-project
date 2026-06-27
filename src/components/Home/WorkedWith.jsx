@@ -9,7 +9,7 @@ const WorkedWith = () => {
         <span className='font-primrie ml-24'>Worked</span> with
       </h1>
       <div className='flex flex-col md:flex-row  justify-between items-center px-4 md:px-72 mb-10'>
-        <div className='ml-10'>
+        <div className='md:ml-10'>
           <Count/>
         </div>
         <div className='w-full md:w-auto flex justify-center'>

@@ -6,7 +6,7 @@ const AboutMe = () => {
     return (
         <div>
             <h1 className='text-5xl px-2 md:px-24 py-10  font-semibold'>About <span className='font-primrie'>Me</span></h1>
-            <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-15">
+            <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10">
                 <div className="px-3.5 w-full md:w-1/2">
                     <img src={about} className="w-full h-full object-cover rounded-3xl" alt="About Me" />
                 </div>
@@ -14,8 +14,8 @@ const AboutMe = () => {
 
                     <p className='text-sm text-gray-400'>Hello, I'm</p>
                     <h1 className='text-4xl font font-semibold'>MD Raihan <span className='it'>
-                     Hossain</span></h1>
-                    <div className='text-xs text-gray-400 space-y-1.5 w-md'>
+                        Hossain</span></h1>
+                    <div className='text-[14px] px-2 text-gray-400 space-y-1.5 w-xs  md:w-xl'>
                         <p>Design for me is not just work — it's the journey of turning my childhood
                             passion into professional strength.</p>
                         <p>

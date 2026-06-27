@@ -52,7 +52,7 @@ const ContactQuestion = () => {
             onClick={() => toggle(item.id)}
             className="flex justify-between items-center cursor-pointer gap-4"
           >
-            <h2 className="text-sm sm:text-base md:text-lg lg:text-xl font-medium">
+            <h2 className="text-sm sm:text-base md:text-[24px] font-medium">
               {item.question}
             </h2>
 

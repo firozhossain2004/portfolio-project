@@ -18,35 +18,34 @@ const Work = () => {
   const [filter, setFilter] = useState("Explore All");
 
 
- const filtered =
-  filter === "Explore All"
-    ? data
-    : data.filter(
+  const filtered =
+    filter === "Explore All"
+      ? data
+      : data.filter(
         (d) => d.category.toLowerCase() === filter.toLowerCase()
       );
 
   const visibleCategories = categories;
 
   return (
-    <div className="min-h-screen bg-black text-white px-4 md:px-6 py-10">
- 
+    <div className="min-h-screen bg-black text-white px-4 sm:px-6 lg:px-8 py-10 overflow-x-hidden max-w-5xl mx-auto">
+
       <div className="flex justify-center">
-        <h1 className="text-2xl sm:text-3xl md:text-5xl text-center max-w-xl mb-10 leading-tight">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl text-center max-w-2xl mx-auto mb-10 leading-tight px-2">
           <span className="font-primrie">Designs</span> <span className="font-semibold">That Speak Results That</span>{" "}
           <span className="font-primrie">Matter</span>
         </h1>
       </div>
- <div className="flex flex-wrap justify-center gap-2 md:gap-3 mb-8">
+      <div className="flex flex-wrap justify-center gap-2 md:gap-4 mb-8 px-2">
 
         {visibleCategories.map((cat) => (
           <button
             key={cat}
             onClick={() => setFilter(cat)}
-            className={`px-3 md:px-4 py-1.5 md:py-2 text-xs md:text-sm  border-2 rounded-xl transition font-semibold
-              ${
-                filter === cat
-                  ? "bg-white text-black border-white"
-                  : "border-gray-500 text-white hover:bg-white hover:text-black"
+            className={`px-3 md:px-4 py-2 text-xs sm:text-sm border-2 rounded-xl transition font-semibold whitespace-nowrap
+              ${filter === cat
+                ? "bg-blue-500 text-black border-blue-500"
+                : "border-blue-500 text-white hover:bg-blue-500 hover:text-black"
               }`}
           >
             {cat}
@@ -55,7 +54,7 @@ const Work = () => {
 
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4 md:gap-8 md:max-w-4xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-8 max-w-5xl mx-auto">
 
         {filtered.map((item) => (
           <div
@@ -74,7 +73,7 @@ const Work = () => {
         ))}
 
       </div>
-      <div className="mt-20 md:mt-32">
+      <div className="mt-20 md:mt-12">
         <FormPage />
       </div>
 

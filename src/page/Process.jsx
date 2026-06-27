@@ -7,9 +7,9 @@ const Process = () => {
     <div>
       <div className='px-4 text-center space-y-3.5 py-10'>
 
-        <h4 className='text-sm mt-3.5 md:text-xl text-[#6650D7]'>MY PROCESS</h4>
+        <h4 className='text-sm mt-3.5 md:text-[16px] text-[#6650D7]'>MY PROCESS</h4>
 
-        <h1 className='text-xl sm:text-2xl md:text-6xl max-w-2xl mx-auto leading-tight'><span className='font-semibold'>My</span> <span className='font-primrie'>Strategy</span> <span
+        <h1 className='text-xl sm:text-2xl md:text-5xl max-w-2xl mx-auto leading-tight'><span className='font-semibold'>My</span> <span className='font-primrie'>Strategy</span> <span
           className='font-semibold'>to get You Leads with</span> <span className='font-primrie'>Design</span></h1>
       </div>
 
@@ -26,7 +26,7 @@ const Process = () => {
                 <div className="border border-[#6650D7] text-purple-400 px-4 py-1 rounded-full inline-block">
                   {item.id}
                 </div>
-                <h2 className="text-xl md:text-2xl font-semibold">
+                <h2 className="text-xl md:text-[32px] font-semibold">
                   {item.title}
                 </h2>
                 <p className="text-gray-400 leading-relaxed text-sm md:text-base ">
@@ -51,7 +51,7 @@ const Process = () => {
           </h5>
 
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight">
-            Your Questions <br />
+            <span className='font-semibold'>Your Questions</span> <br />
             <span className="font-primrie">Answered!</span>
           </h2>
         </div>

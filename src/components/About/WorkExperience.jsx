@@ -2,9 +2,9 @@ import React from 'react'
 import { experiences } from '../../Data/exprience'
 const WorkExperience = () => {
     return (
-        <div className='px-10 md:px-24 mt-28 mb-28 md:flex gap-10'>
+        <div className='px-10 md:px-32 mt-28 mb-28 md:flex gap-10'>
 
-            <h1 className='text-6xl '>
+            <h1 className='text-5xl '>
                <span className='font-semibold'> Work </span><span className='font-primrie'>Experience</span>
             </h1>
 
@@ -16,7 +16,7 @@ const WorkExperience = () => {
                     >
                         <div className='flex justify-between'>
                             <div>
-                                <h1 className='text-xl font-semibold'>{item.company}</h1>
+                                <h1 className='text-2xl font-semibold'>{item.company}</h1>
                                 <p className='text-sm  '>
                                     {item.role}
                                 </p>
@@ -27,7 +27,7 @@ const WorkExperience = () => {
                             </p>
                         </div>
 
-                        <p className='text-sm text-gray-400'>
+                        <p className='text-[18px] text-gray-400'>
                             {item.description}
                         </p>
                     </div>

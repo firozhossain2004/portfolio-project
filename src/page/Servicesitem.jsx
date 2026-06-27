@@ -8,7 +8,7 @@ const Servicesitem = () => {
 
 
       <div className="text-center md:text-left max-w-3xl mx-auto md:mx-0">
-        <h4 className="text-sm md:text-lg text-[#6650D7]">
+        <h4 className="text-sm md:text-[16px] text-[#6650D7]">
           WHAT I DO
         </h4>
 
@@ -29,14 +29,14 @@ const Servicesitem = () => {
 
 
             <div className="max-w-md space-y-6 text-center md:text-left">
-              <h2 className="text-xl md:text-2xl font-semibold">
+              <h2 className="text-xl md:text-[35px] font-semibold">
                 {item.title}{" "}
                 <span className="font-primrie  text-gray-400">
                   {item.highlight}
                 </span>
               </h2>
 
-              <p className="text-xs md:text-xs text-gray-400 w-xs">
+              <p className="text-[16px] md:text-xs text-gray-400 w-xs">
                 {item.description}
               </p>
 
