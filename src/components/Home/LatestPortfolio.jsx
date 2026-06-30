@@ -16,15 +16,15 @@ const LatestPortfolio = () => {
         </h1>
       </div>
 
-      <div className="px-4 md:px-24 md:ml-24">
+      <div className="px-4 md:px-24 md:ml-24 ">
         
-        <div className="flex flex-col md:flex-row gap-6 md:gap-40 mb-10">
+        <div className="flex flex-col md:flex-row gap-7  md:gap-40 ">
           {portfolioItems[0] && (
             <div
               onClick={() =>
                 navigate(`/details/${portfolioItems[0].id}`)
               }
-              className="w-full md:w-[37%] h-64 md:h-80 rounded-2xl overflow-hidden relative group cursor-pointer"
+              className="w-80 md:w-[37%] h-64 md:h-80 rounded-2xl overflow-hidden mx-auto object-contain relative group cursor-pointer"
             >
               <img
                 src={portfolioItems[0].img}
@@ -40,7 +40,7 @@ const LatestPortfolio = () => {
               onClick={() =>
                 navigate(`/details/${portfolioItems[1].id}`)
               }
-              className="w-full md:w-[40%] h-44 md:h-72 md:mt-16 rounded-2xl relative group overflow-hidden cursor-pointer"
+              className="w-80 md:w-[40%] h-64 md:h-72 md:mt-16 rounded-2xl relative group overflow-hidden mx-auto object-contain cursor-pointer"
             >
               <img
                 src={portfolioItems[1].img}
@@ -58,7 +58,7 @@ const LatestPortfolio = () => {
             onClick={() =>
               navigate(`/details/${portfolioItems[2].id}`)
             }
-            className="w-full md:w-[60%] mx-auto h-64 md:h-[450px] rounded-2xl mb-10 relative group overflow-hidden cursor-pointer"
+            className="w-80 md:w-[60%]  h-60 md:h-[450px] rounded-2xl  relative group overflow-hidden mx-auto object-contain cursor-pointer mt-7 mb-7"
           >
             <img
               src={portfolioItems[2].img}
@@ -70,13 +70,13 @@ const LatestPortfolio = () => {
         )}
 
      
-        <div className="flex flex-col md:flex-row gap-6 md:gap-40 mt-10 md:ml-40">
+        <div className="flex flex-col md:flex-row gap-7  md:gap-40 ">
           {portfolioItems[3] && (
             <div
               onClick={() =>
                 navigate(`/details/${portfolioItems[3].id}`)
               }
-              className="w-full md:w-[40%] h-44 md:h-72 rounded-2xl relative group overflow-hidden cursor-pointer"
+              className="w-80 md:w-[40%] h-60 md:h-72 rounded-2xl relative group overflow-hidden cursor-pointer mx-auto object-contain"
             >
               <img
                 src={portfolioItems[3].img}
@@ -92,19 +92,19 @@ const LatestPortfolio = () => {
               onClick={() =>
                 navigate(`/details/${portfolioItems[4].id}`)
               }
-              className="w-full md:w-[40%] h-64 md:h-80  rounded-2xl overflow-hidden relative group cursor-pointer"
+              className="w-80 md:w-[40%] h-60 md:h-80  rounded-xl overflow-hidden relative group cursor-pointer mx-auto object-contain"
             >
               <img
                 src={portfolioItems[4].img}
                 alt={portfolioItems[4].title}
-                className="w-full h-full object-cover rounded-2xl transition duration-500 group-hover:scale-105"
+                className="w-full h-full object-cover  transition duration-500 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition"></div>
             </div>
           )}
         </div>
 
-        <div className="flex justify-center py-12 md:py-16">
+        <div className="flex justify-center mt-7">
           <Link
             to="/work"
             className="bg-[#6650D7] px-6 py-2 rounded-xl"

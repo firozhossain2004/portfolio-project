@@ -11,7 +11,7 @@ const Footer = () => {
     <footer className="bg-black text-white">
       <div className=" mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 px-6 md:px-20 py-12 bg-[#0d0c0c]">
 
-        {/* Logo */}
+     
         <div>
           <div className="w-24 md:w-28">
             <Link to="/">
@@ -29,13 +29,13 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Links */}
+        
         <div>
           <h3 className="text-lg font-semibold mb-6">
             Quick Links
           </h3>
 
-          <ul className="space-y-3 flex flex-col text-gray-500">
+          <ul className="md:space-y-3 flex flex-row md:flex-col gap-2.5 text-gray-500">
             <Link to="/" className="hover:text-fuchsia-500">
               Home
             </Link>
@@ -58,7 +58,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Contact */}
+     
         <div>
           <h2 className="text-lg font-semibold mb-6">
             Contact
@@ -76,8 +76,8 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom Bar */}
-      <div className="bg-[#6650D7] px-6 md:px-20 py-15 ">
+     
+      <div className="bg-[#6650D7] px-6 md:px-20 py-10 ">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 ">
 
           <p className="text-sm md:text-base text-center">

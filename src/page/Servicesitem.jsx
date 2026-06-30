@@ -4,10 +4,10 @@ import Process from "./Process";
 
 const Servicesitem = () => {
   return (
-    <div className="bg-black text-white px-4 md:px-28 py-16">
+    <div className="bg-black text-white px-5 md:px-28 py-16">
 
 
-      <div className="text-center md:text-left max-w-3xl mx-auto md:mx-0">
+      <div className=" md:text-left max-w-3xl mx-auto md:mx-0">
         <h4 className="text-sm md:text-[16px] text-[#6650D7]">
           WHAT I DO
         </h4>
@@ -19,16 +19,16 @@ const Servicesitem = () => {
       </div>
 
 
-      <div className="mt-12 space-y-16 md:space-y-24">
+      <div className="mt-8 space-y-7 md:space-y-12">
 
         {servicesData.map((item, index) => (
           <div
             key={index}
-            className="flex flex-col md:flex-row items-center gap-10 md:gap-48"
+            className="flex flex-col md:flex-row  gap-5 md:gap-48"
           >
 
 
-            <div className="max-w-md space-y-6 text-center md:text-left">
+            <div className="max-w-md space-y-6  md:text-left">
               <h2 className="text-xl md:text-[35px] font-semibold">
                 {item.title}{" "}
                 <span className="font-primrie  text-gray-400">
@@ -54,7 +54,7 @@ const Servicesitem = () => {
               <img
                 src={item.images.main}
                 alt=""
-                className="absolute top-20 md:-ml-40 w-40 sm:w-48 md:w-64 h-60 md:h-80 object-cover rounded-xl border"
+                className="absolute top-5 md:-ml-40 w-40 sm:w-48 md:w-64 h-60 md:h-80 object-cover rounded-xl border"
               />
 
               <img

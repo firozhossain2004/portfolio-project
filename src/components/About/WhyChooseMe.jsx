@@ -3,7 +3,7 @@ import { features } from '../../Data/features'
 
 const WhyChooseMe = () => {
     return (
-        <div className='px-4 md:px-28  mb-16 md:mb-20'>
+        <div className='px-4 md:px-28  mb-16 '>
 
 
             <div className='mb-10 md:mb-16'>
@@ -20,13 +20,13 @@ const WhyChooseMe = () => {
 
             <div className="max-w-7xl mx-auto mt-6">
 
-                <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-8 mb-8">
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 md:gap-7 ">
                     {features.map((item) => (
                         <div
                             key={item.id}
-                            className="bg-[#1c1c1c] p-6 md:p-10  pb-16 rounded-3xl"
+                            className="bg-[#1c1c1c] p-4 md:p-7  rounded-3xl"
                         >
-                            <h2 className="text-[32px] mb-3">
+                            <h2 className="text-[28px] md:text-[32px] mb-3">
                                 {item.title}
                             </h2>
 

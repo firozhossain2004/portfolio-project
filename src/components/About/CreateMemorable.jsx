@@ -10,15 +10,15 @@ const CreateMemorable = () => {
         <div>
             <div>
 
-                
+
                 <div className='text-center font-medium text-2xl md:text-4xl lg:text-5xl max-w-3xl mx-auto mb-12 md:mb-20 px-4'>
                     I Create <span className='font-primrie tracking-wide'>Memorable Experiences</span>
                     for your Brand from <span className='font-primrie tracking-wide'>Bangladesh</span>
                     to the <span className='font-primrie'>World.</span>
                 </div>
                 <div className='px-4 '>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-48 items-center max-w-5xl mx-auto mb-16 md:mb-24">
-                      
+                    <div className="grid grid-cols-1 md:grid-cols-2 md:gap-40 items-center max-w-5xl mx-auto gap-6 mb-6 ">
+
 
                         <div className="flex justify-center md:justify-end md:mt-20">
                             <img
@@ -38,7 +38,7 @@ const CreateMemorable = () => {
 
 
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-48 items-center max-w-5xl mx-auto mb-16 md:mb-24">
+                    <div className="grid grid-cols-1 md:grid-cols-2 md:gap-40 items-center max-w-5xl mx-auto mb-6 gap-6 ">
 
                         <div className="flex justify-center md:justify-end md:mt-20">
                             <img
@@ -59,7 +59,7 @@ const CreateMemorable = () => {
 
 
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-48 items-center max-w-5xl mx-auto mb-10">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6  md:gap-40 items-center max-w-5xl mx-auto mb-6">
 
                         <div className="flex justify-center md:justify-end md:mt-20">
                             <img

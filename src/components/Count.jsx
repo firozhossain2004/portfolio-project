@@ -3,7 +3,7 @@ import LogoCount from './LogoCount'
 const Count = () => {
     return (
         <div>
-            <div className='grid grid-cols-2 gap-10'>
+            <div className='grid grid-cols-2 gap-8'>
 
                 <div>
                     <LogoCount end={4} />
@@ -12,7 +12,7 @@ const Count = () => {
 
                 <div>
                     <LogoCount end={20} />
-                    <p className='text-[16px] text-gray-400 w-36'>Countries with
+                    <p className=' text-sm md:text-[16px] text-gray-400 w-36'>Countries with
                         Global Luxury Clients</p>
                 </div>
 

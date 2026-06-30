@@ -65,7 +65,7 @@ export default function TestimonialSlider() {
             <img
               src={image}
               alt={name}
-              className="h-64 w-full rounded-lg object-cover sm:h-72"
+              className="h-28 w-28 md:h-64 md:w-full rounded-lg object-cover "
             />
             <div className="w-full text-center">
               <p className="mb-3 text-3xl font-black text-white sm:mb-4 sm:text-4xl">"</p>
@@ -112,7 +112,7 @@ export default function TestimonialSlider() {
       <button
         onClick={prev}
         aria-label="Previous"
-        className="absolute left-1 top-1/2 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full border border-gray-600 text-white transition-all hover:border-gray-400 hover:bg-white/5 sm:left-2 sm:h-10 sm:w-10 md:left-4"
+        className="absolute md:left-1 md:top-1/2 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full border border-gray-600 text-white transition-all hover:border-gray-400 hover:bg-white/5   "
       >
         &#8592;
       </button>
@@ -120,7 +120,7 @@ export default function TestimonialSlider() {
       <button
         onClick={next}
         aria-label="Next"
-        className="absolute right-1 top-1/2 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full border border-gray-600 text-white transition-all hover:border-gray-400 hover:bg-white/5 sm:right-2 sm:h-10 sm:w-10 md:right-4"
+        className="absolute right-3 md:top-1/2 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full border border-gray-600 text-white transition-all hover:border-gray-400 hover:bg-white/5 "
       >
         &#8594;
       </button>

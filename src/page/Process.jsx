@@ -5,16 +5,16 @@ import ContactQuestion from '../components/ContactQuestion'
 const Process = () => {
   return (
     <div>
-      <div className='px-4 text-center space-y-3.5 py-10'>
+      <div className='px-5 md:text-center space-y-3.5 py-10'>
 
-        <h4 className='text-sm mt-3.5 md:text-[16px] text-[#6650D7]'>MY PROCESS</h4>
+        <h4 className='text-[16px] mt-3.5 md:text-[16px] text-[#6650D7]'>MY PROCESS</h4>
 
         <h1 className='text-xl sm:text-2xl md:text-5xl max-w-2xl mx-auto leading-tight'><span className='font-semibold'>My</span> <span className='font-primrie'>Strategy</span> <span
           className='font-semibold'>to get You Leads with</span> <span className='font-primrie'>Design</span></h1>
       </div>
 
-      <div className="bg-black text-white py-10 px-4">
-        <div className="max-w-6xl mx-auto  space-y-16 md:space-y-24">
+      <div className="bg-black text-white py-10 ">
+        <div className="max-w-6xl mx-auto  space-y-10 md:space-y-17">
 
           {data.map((item, index) => (
             <div
@@ -22,7 +22,7 @@ const Process = () => {
               className={`flex flex-col md:flex-row items-center gap-8 md:gap-40 ${index % 2 !== 0 ? "md:flex-row-reverse" : ""
                 }`}
             >
-              <div className="max-w-md space-y-4 text-center md:text-left">
+              <div className="max-w-md space-y-4  md:text-left">
                 <div className="border border-[#6650D7] text-purple-400 px-4 py-1 rounded-full inline-block">
                   {item.id}
                 </div>

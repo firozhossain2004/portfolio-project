@@ -5,7 +5,7 @@ import { Imgs } from "../Data/brendimg";
 const LogoSlider = () => {
  
   const logos = [...Imgs, ...Imgs];
-
+const isMobile = window.innerWidth < 768;
   return (
     <div className="overflow-hidden w-full py-10">
 
@@ -14,7 +14,7 @@ const LogoSlider = () => {
         animate={{ x: ["0%", "-50%"] }}
         transition={{
           ease: "linear",
-          duration: 20,
+          duration:isMobile ? 8 : 20,
           repeat: Infinity,
         }}
       >
@@ -22,7 +22,7 @@ const LogoSlider = () => {
           <img
             key={index}
             src={item.img}
-            className="h-10 object-contain"
+            className=" h-7 md:h-10 object-contain"
             alt=""
           />
         ))}

@@ -2,17 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
 
 @font-face {
-  font-family:"Englisch" ;
+  font-family: "Englisch";
   src: url("./assets/fonts/Englisch-Regular\ Italic\ \(2\).otf");
 }
 
 @import "tailwindcss";
 
-@theme{
-  --font-primrie:Englisch,"sans-serif"
+@theme {
+  --font-primrie: Englisch, "sans-serif"
 }
 
 body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
   font-family: "Red Hat Display", sans-serif;
 }
 

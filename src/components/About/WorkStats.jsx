@@ -8,33 +8,40 @@ const WorkStats = () => {
             </div>
 
             <div>
-                <div className='md:flex flex-2 justify-between px-40 md:px-50 items-center mb-10'>
-             
-                        <div className='space-y-10 md:flex items-center gap-40 '>
+                <div className='flex justify-center  px-8 items-center mb-10'>
 
-                            <div>
-                                <div className='md:ml-10'>
-                                    <LogoCount end={4} />
-                                </div>
-                                <p className='text-sm text-gray-400 text-center'>Years of
-                                    Experience</p>
-                            </div>
-                            <div>
-                                <LogoCount end={2} />
-                                <p className='text-sm text-gray-400 '>Industry
-                                    Recognitions</p>
-                            </div>
-                            <div>
-                                <LogoCount end={500} />
-                                <p className='text-sm text-gray-400 w-40'>Projects Completed</p>
-                            </div>
-                            <div>
-                                <LogoCount end={98} />
-                                <p className='text-sm  text-gray-400'>Client
-                                    Satisfaction Rate</p>
-                            </div>
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-16 text-center w-full">
+
+                        <div>
+                            <LogoCount end={4} />
+                            <p className="text-sm text-gray-400">
+                                Years of Experience
+                            </p>
                         </div>
-                   
+
+                        <div>
+                            <LogoCount end={2} />
+                            <p className="text-sm text-gray-400">
+                                Industry Recognitions
+                            </p>
+                        </div>
+
+                        <div>
+                            <LogoCount end={500} />
+                            <p className="text-sm text-gray-400">
+                                Projects Completed
+                            </p>
+                        </div>
+
+                        <div>
+                            <LogoCount end={98} />
+                            <p className="text-sm text-gray-400">
+                                Client Satisfaction Rate
+                            </p>
+                        </div>
+
+                    </div>
+
 
                 </div>
             </div>

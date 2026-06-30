@@ -27,7 +27,7 @@ function LogoCount({ end, duration = 2 }) {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: "easeOut" }}
         viewport={{ once: true }}
-        className="text-5xl font-bold text-gray-300"
+        className="text-4xl md:text-5xl font-bold text-gray-300"
       >
         {count}+
         

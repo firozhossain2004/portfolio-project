@@ -23,14 +23,8 @@ const Details = () => {
                 className="w-full h-[50vh] sm:h-[60vh] md:h-screen bg-cover bg-center bg-no-repeat relative"
                 style={{ backgroundImage: `url(${item.img})` }}
             >
-                <div className="absolute inset-0  flex items-center justify-center">
-                    <h1 className="text-3xl sm:text-4xl md:text-5xl text-center px-4 font-bold">
-                        {item.title || "Project Details"}
-                    </h1>
-                </div>
-
             </div>
-            <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl text-center max-w-3xl mx-auto mt-12 md:mt-20 lg:mt-28 mb-12 md:mb-20 lg:mb-28 px-4 leading-relaxed ">
+            <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl text-center max-w-3xl mx-auto mt-12 md:mt-20 lg:mt-28 mb-12 md:mb-20 lg:mb-1 px-4 leading-relaxed ">
                 Setting a new gold standard for Green Square, this cornerstone
                 residential tower stands tall above one of Sydney’s most vibrant and
                 coveted communities. Admire breathtaking, panoramic vistas from
@@ -60,7 +54,7 @@ const Details = () => {
                     <WorkSlider slides={sliderImages} />
                 </div>
                 {item.images?.[3] && (
-                    <div className="flex justify-center mt-10 mb-10">
+                    <div className="flex justify-center mt-10 ">
                         <img
                             src={item.images[3]}
                             alt=""
@@ -68,7 +62,8 @@ const Details = () => {
                         />
                     </div>
                 )}
-                <div className="px-4 grid grid-cols-1 sm:grid-cols-2 max-w-3xl mx-auto gap-8 mt-12">
+            </div>
+                <div className=" grid px-5 grid-cols-2 max-w-3xl mx-auto gap-8  md:ml-36z md:mb-20">
 
                     <div>
                         <h3 className="text-[#6650D7]">Project Location</h3>
@@ -87,7 +82,6 @@ const Details = () => {
                         <h4>{item.Credits}</h4>
                     </div>
                 </div>
-            </div>
             <div className="mt-10 mb-10">
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-4 px-4">
                     {remainingProjects.map((project) => (

@@ -5,7 +5,7 @@ import LogoSlider from "../components/LogoSlider.jsx";
 
 const ContactPage = () => {
   return (
-    <div className="bg-black min-h-screen text-white px-4 md:px-10 py-10 space-y-20">
+    <div className="bg-black min-h-screen text-white px-4 md:px-10 py-10 space-y-10">
 
       
       <div className="text-center max-w-3xl mx-auto">
@@ -33,7 +33,7 @@ const ContactPage = () => {
           FREQUENTLY ASKED QUESTIONS
         </h5>
 
-        <h2 className="text-xl sm:text-3xl md:text-6xl  leading-tight ">
+        <h2 className="text-xl sm:text-3xl md:text-6xl leading-tight ">
           <span className="font-semibold">Your Questions</span> <br />
           <span className="font-primrie">Answered!</span>
         </h2>
