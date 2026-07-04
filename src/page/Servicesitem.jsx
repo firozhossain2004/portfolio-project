@@ -36,11 +36,11 @@ const Servicesitem = () => {
                 </span>
               </h2>
 
-              <p className="text-[16px] md:text-xs text-gray-400 w-xs">
+              <p className="text-[14px] md:text-xs text-gray-400 w-xs">
                 {item.description}
               </p>
 
-              <ul className="space-y-2 text-sm md:text-base text-gray-400 ">
+              <ul className="space-y-2 text-[12px] md:text-base text-gray-400 ">
                 {item.features.map((f, i) => (
                   <li key={i}>
                     <span className="text-[#6650D7] text-lg">•</span> {f}

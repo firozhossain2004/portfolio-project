@@ -45,7 +45,7 @@ const Process = () => {
         </div>
       </div>
       <div>
-        <div className="text-center space-y-3 max-w-2xl mx-auto mt-15 mb-10">
+        <div className="text-center space-y-3 max-w-2xl mx-auto mt-5 mb-5">
           <h5 className="text-xs sm:text-sm md:text-lg text-purple-500 tracking-wide">
             FREQUENTLY ASKED QUESTIONS
           </h5>
