@@ -8,15 +8,15 @@ const AboutMe = () => {
         <div>
             <h1 className='text-3xl md:text-5xl  px-4 md:px-24 py-10  font-semibold'>About <span className='font-primrie'>Me</span></h1>
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10">
-                <div className="px-3.5 w-full md:w-1/2">
+                <div className="px-3.5 w-full md:w-2xl lg:w-1/2">
                     <img src={about} className="w-full h-full object-cover rounded-3xl" alt="About Me" />
                 </div>
-                <div className="w-full xl: px-4 md:w-1/2 space-y-4 mt-3.5">
+                <div className="w-full h-1/5 px-4 md:w-2xl lg:w-1/2 md:space-y-1  mt-3.5">
 
                     <p className='text-sm text-gray-400'>Hello, I'm</p>
-                    <h1 className='text-4xl font font-semibold'>MD Raihan <span className='it'>
+                    <h1 className='text-xl lg:text-4xl font font-semibold'>MD Raihan <span className='it'>
                         Hossain</span></h1>
-                    <div className={`text-[16px] px-2 text-gray-400 space-y-2 md:w-xl overflow-hidden transition-all duration-500 ${showMore ? "max-h-full" : "max-h-52 md:max-h-full"
+                    <div className={`text-[16px] px-2 text-gray-400 space-y-1 md:w-xl overflow-hidden transition-all duration-500 ${showMore ? "max-h-full" : "max-h-52 lg:max-h-full"
                         }`}>
                         <p>Design for me is not just work — it's the journey of turning my childhood
                             passion into professional strength.</p>
@@ -33,14 +33,7 @@ const AboutMe = () => {
                             our area — my uncle — guided me at the beginning, and with his support, my
                             graphic design journey began.
                         </p>
-                        <p>
-                            In the beginning, I learned and practiced different types of design, but gradually
-                            I realized it's impossible to be an expert in everything. So, I narrowed down my
-                            services based on my interests and strengths. A little later, I understood — if I
-                            kept working across all industries, I wouldn't become an expert in any single one.
-                            That's when I discovered how much I enjoyed working with real estate designs,
-                            and I chose this niche.
-                        </p>
+                       
                         <p>
                             While researching different real estate companies, I realized there's something
                             beyond regular design: Luxury Real Estate. Working in this segment, I felt this is
@@ -66,7 +59,7 @@ const AboutMe = () => {
                             story shine brighter.
                         </p>
                     </div>
-                    <div className="md:hidden mt-4">
+                    <div className="lg:hidden mt-4">
                         <button
                             onClick={() => setShowMore(!showMore)}
                             className="text-[#6650D7] font-semibold"

@@ -36,13 +36,13 @@ const Work = () => {
           <span className="font-primrie">Matter</span>
         </h1>
       </div>
-      <div className="flex flex-wrap justify-center gap-2 md:gap-4 mb-8 px-2">
+      <div className="flex flex-wrap justify-center gap-3 lg:gap-3 mb-8 px-4 max-w-7xl mx-auto">
 
         {visibleCategories.map((cat) => (
           <button
             key={cat}
             onClick={() => setFilter(cat)}
-            className={`px-3 md:px-4 py-2 text-xs sm:text-sm border-2 rounded-xl transition font-semibold whitespace-nowrap
+            className={`px-2 sm:px-3 lg:px-4 py-2 text-xs sm:text-sm border rounded-lg whitespace-nowrap transition font-semibold
               ${filter === cat
                 ? "bg-[#6650D7] text-black border-[#6650D7]"
                 : "border-[#6650D7] text-white hover:bg-[#6650D7] hover:text-black"

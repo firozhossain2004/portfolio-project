@@ -12,19 +12,19 @@ const Count = () => {
 
                 <div>
                     <LogoCount end={20} />
-                    <p className=' text-sm md:text-[16px] text-gray-400 w-36'>Countries with
+                    <p className=' text-sm md:text-[16px] text-gray-400 ma max-w-40'>Countries with
                         Global Luxury Clients</p>
                 </div>
 
                 <div>
                     <LogoCount end={150} />
-                    <p className='text-[16px] text-gray-400 w-32'>Elite Real Estat
+                    <p className='text-[16px] text-gray-400 max-w-40'>Elite Real Estat
                         Brands & Agencies</p>
                 </div>
 
                 <div>
                     <LogoCount end={500} />
-                    <p className='text-[16px] text-gray-400 w-44'>High-End Projects
+                    <p className='text-[16px] text-gray-400 max-w-48'>High-End Projects
                         Delivered with Distinction</p>
                 </div>
 

@@ -4,7 +4,7 @@ import Process from "./Process";
 
 const Servicesitem = () => {
   return (
-    <div className="bg-black text-white px-5 md:px-28 py-16">
+    <div className="bg-black text-white px-5 md:px-8 lg:px-48 py-16">
 
 
       <div className=" md:text-left max-w-3xl mx-auto md:mx-0">
@@ -24,7 +24,7 @@ const Servicesitem = () => {
         {servicesData.map((item, index) => (
           <div
             key={index}
-            className="flex flex-col md:flex-row  gap-5 md:gap-48"
+            className="flex flex-col md:flex-row  gap-5 lg:gap-36"
           >
 
 

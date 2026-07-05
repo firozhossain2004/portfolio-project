@@ -2,17 +2,17 @@ import React from 'react'
 import { experiences } from '../../Data/exprience'
 const WorkExperience = () => {
     return (
-        <div className='px-4 md:px-32 mb-8 mt-8 md:mt-28 md:mb-28 md:flex gap-10'>
+        <div className='px-4 lg:px-24 mb-8 mt-8 md:mt-10 md:mb-10 lg:flex gap-10'>
 
             <h1 className='text-3xl md:text-5xl '>
                <span className='font-semibold'> Work </span><span className='font-primrie'>Experience</span>
             </h1>
 
-            <div className='px-2 mt-5'>
+            <div className='px-2  mt-2'>
                 {experiences.map((item) => (
                     <div
                         key={item.id}
-                        className='md:w-2xl  space-y-2.5 mt-10 md:space-y-3'
+                        className='md:w-4xl space-y-2.5 mt-10 md:space-y-3 px-4'
                     >
                         <div className='flex justify-between'>
                             <div>

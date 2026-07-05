@@ -5,7 +5,7 @@ import ContactQuestion from '../components/ContactQuestion'
 const Process = () => {
   return (
     <div>
-      <div className='px-5 md:text-center space-y-3.5 py-10'>
+      <div className='px-5 md:text-center space-y-3.5 py-5'>
 
         <h4 className='text-[16px] mt-3.5 md:text-[16px] text-[#6650D7]'>MY PROCESS</h4>
 
@@ -19,7 +19,7 @@ const Process = () => {
           {data.map((item, index) => (
             <div
               key={item.id}
-              className={`flex flex-col md:flex-row items-center gap-8 md:gap-40 ${index % 2 !== 0 ? "md:flex-row-reverse" : ""
+              className={`flex flex-col md:flex-row items-center gap-8 lg:gap-40 ${index % 2 !== 0 ? "md:flex-row-reverse" : ""
                 }`}
             >
               <div className="max-w-md space-y-4  md:text-left">

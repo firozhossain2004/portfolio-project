@@ -12,7 +12,7 @@ const WhatsAppButton = () => {
             rel="noopener noreferrer"
             className="
         fixed
-        bottom-5
+        bottom-10
         right-5
         z-50
         group
@@ -33,12 +33,12 @@ const WhatsAppButton = () => {
           duration-300
           hover:scale-105
           px-4
-          py-3
+          py-4
         "
             >
-                <FaWhatsapp className="text-3xl" />
+                <FaWhatsapp className="text-xl lg:text-3xl" />
 
-                <span
+                {/* <span
                     className="
             hidden
             md:block
@@ -48,7 +48,7 @@ const WhatsAppButton = () => {
           "
                 >
                     Let's Chat
-                </span>
+                </span> */}
             </div>
         </a>
 
