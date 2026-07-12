@@ -118,7 +118,7 @@ const Form = () => {
    
       <button
         type="submit"
-        className="w-full md:w-auto bg-purple-600 px-6 py-3 rounded-xl hover:bg-purple-500 transition text-sm md:text-base"
+        className="cursor-pointer w-full md:w-auto bg-purple-600 px-6 py-3 rounded-xl hover:bg-purple-500 transition text-sm md:text-base"
       >
         Let’s Connect →
       </button>

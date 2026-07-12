@@ -8,10 +8,8 @@ import img6 from '../../assets/about-img/img6.png'
 const CreateMemorable = () => {
     return (
         <div>
-            <div>
-
-
-                <div className='text-center font-medium text-2xl md:text-4xl lg:text-5xl max-w-3xl mx-auto mb-12 md:mb-20 px-4'>
+            <div className='mt-24'>
+                <div className='text-center font-medium text-2xl md:text-4xl lg:text-5xl max-w-3xl mx-auto  md:mb-20 px-4'>
                     I Create <span className='font-primrie tracking-wide'>Memorable Experiences</span>
                     for your Brand from <span className='font-primrie tracking-wide'>Bangladesh</span>
                     to the <span className='font-primrie'>World.</span>
@@ -86,3 +84,4 @@ const CreateMemorable = () => {
 }
 
 export default CreateMemorable
+  

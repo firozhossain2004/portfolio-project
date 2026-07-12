@@ -82,11 +82,11 @@ export default function TestimonialSlider() {
         ) : (
      
           <div className="flex items-center gap-8 lg:gap-10">
-            <div className="h-72 w-56 flex-shrink-0 overflow-hidden rounded-lg md:h-80 md:w-64">
+            <div className="h-72 w-56 flex-shrink-0 overflow-hidden rounded-lg md:h-50 md:w-50">
               <img
                 src={image}
                 alt={name}
-                className="h-full w-full object-cover"
+                className="h-full w-full object-contain"
               />
             </div>
 

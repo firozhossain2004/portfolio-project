@@ -3,10 +3,10 @@ import React from 'react'
 import TestimonialSlider from './TestimonialSlider'
 const Clients = () => {
     return (
-        <div className='py-16 md:py-12 px-4'>
+        <div className='mb-10 md:py-12 px-4'>
 
             <div className='text-center'>
-                <h4 className='text-sm md:text-xl text-[#6650D7] py-2'>
+                <h4 className='text-sm md:text-xl text-[#6650D7] py-2 cursor-pointer'>
                     CLIENT STORIES
                 </h4>
 

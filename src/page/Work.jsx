@@ -42,7 +42,7 @@ const Work = () => {
           <button
             key={cat}
             onClick={() => setFilter(cat)}
-            className={`px-2 sm:px-3 lg:px-4 py-2 text-xs sm:text-sm border rounded-lg whitespace-nowrap transition font-semibold
+            className={`px-2 sm:px-3 cursor-pointer lg:px-4 py-2 text-xs sm:text-sm border rounded-lg whitespace-nowrap transition font-semibold
               ${filter === cat
                 ? "bg-[#6650D7] text-black border-[#6650D7]"
                 : "border-[#6650D7] text-white hover:bg-[#6650D7] hover:text-black"
@@ -73,7 +73,7 @@ const Work = () => {
         ))}
 
       </div>
-      <div className="mt-20 md:mt-12">
+      <div className="mt-10 md:mt-20">
         <FormPage />
       </div>
 

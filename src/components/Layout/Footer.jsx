@@ -35,7 +35,7 @@ const Footer = () => {
             Quick Links
           </h3>
 
-          <ul className="md:space-y-3 flex flex-row md:flex-col gap-2.5 text-gray-500">
+          <ul className="md:space-y-0.5 flex flex-row md:flex-col gap-2.5 text-gray-500">
             <Link to="/" className="hover:text-fuchsia-500">
               Home
             </Link>

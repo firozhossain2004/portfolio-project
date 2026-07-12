@@ -5,18 +5,18 @@ import Count from '../Count'
 const WorkedWith = () => {
   return (
     <div>
-      <h1 className='text-3xl md:text-5xl    lg:px-24 mb-10 text-center md:text-left'>
-        <span className='font-primrie text-center lg:ml-24'>Worked</span> with
+      <h1 className='text-3xl md:text-5xl mt-8  mb-10 text-center md:text-left'>
+        <span className='font-primrie text-center '>Worked</span> with
       </h1>
-      <div className='flex flex-col md:flex-row  justify-between items-center px-2 lg:px-72  space-y-10'>
-        <div className='ml-9 md:ml-10'>
+      <div className='max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-between px-2 gap-5 md:gap-20 space-y-10'>
+        <div className=''>
           <Count/>
         </div>
-        <div className='w-full md:w-auto flex justify-center'>
+        <div className='max-w-60  w-full  flex justify-center'>
           <img
             src={lastlogo}
-            className='w-44  md:w-60 rounded-2xl'
-            alt=""
+            className='rounded-xl'
+            alt="lastlogo"
           />
         </div>
       </div>

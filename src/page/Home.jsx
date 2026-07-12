@@ -5,17 +5,19 @@ import LogoSlider from '../components/LogoSlider'
 import WorkedWith from '../components/Home/WorkedWith'
 import LatestPortfolio from '../components/Home/LatestPortfolio'
 import Clients from '../components/Home/Clients'
+import Container from '../components/Container'
+
 
 const Home = () => {
   return (
     <div>
       <Hero />
-       <div className='flex flex-wrap justify-center items-center gap-6 mb-10'>
-        <LogoSlider />
-      </div>
-       <WorkedWith/>
-       <LatestPortfolio/>
-       <Clients/> 
+      <Container>
+      <LogoSlider />
+      <WorkedWith />
+      <LatestPortfolio />
+      <Clients />
+      </Container>
     </div>
   )
 }

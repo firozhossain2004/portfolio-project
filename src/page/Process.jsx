@@ -5,7 +5,7 @@ import ContactQuestion from '../components/ContactQuestion'
 const Process = () => {
   return (
     <div>
-      <div className='px-5 md:text-center space-y-3.5 py-5'>
+      <div className='px-5 md:text-center md:mt-20 space-y-3.5 py-5'>
 
         <h4 className='text-[16px] mt-3.5 md:text-[16px] text-[#6650D7]'>MY PROCESS</h4>
 
@@ -19,7 +19,7 @@ const Process = () => {
           {data.map((item, index) => (
             <div
               key={item.id}
-              className={`flex flex-col md:flex-row items-center gap-8 lg:gap-40 ${index % 2 !== 0 ? "md:flex-row-reverse" : ""
+              className={`flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12 xl:gap-20 ${index % 2 !== 0 ? "lg:flex-row-reverse" : ""
                 }`}
             >
               <div className="max-w-md space-y-4  md:text-left">
@@ -33,11 +33,11 @@ const Process = () => {
                   {item.desc}
                 </p>
               </div>
-              <div className="w-full md:w-md">
+              <div className="w-full flex justify-center lg:justify-end">
                 <img
                   src={item.img}
                   alt={item.title}
-                  className="w-xl h-56 sm:h-64 md:h-64  object-cover rounded-xl border"
+                  className="w-full max-w-[550px] h-56 sm:h-64 lg:h-72 object-cover rounded-xl border"
                 />
               </div>
             </div>
@@ -45,7 +45,7 @@ const Process = () => {
         </div>
       </div>
       <div>
-        <div className="text-center space-y-3 max-w-2xl mx-auto mt-5 mb-5">
+        <div className="text-center space-y-3 max-w-2xl mx-auto mt-20 mb-10">
           <h5 className="text-xs sm:text-sm md:text-lg text-purple-500 tracking-wide">
             FREQUENTLY ASKED QUESTIONS
           </h5>

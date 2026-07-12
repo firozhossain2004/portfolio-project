@@ -3,14 +3,14 @@ import LogoCount from '../LogoCount'
 const WorkStats = () => {
     return (
         <div>
-            <div className='text-center mb-15'>
+            <div className='text-center mb-12'>
                 <h1 className='text-5xl'><span className='font-semibold'>Work</span> <span className='font-primrie'>Stats</span></h1>
             </div>
 
             <div>
                 <div className='flex justify-center  px-8 items-center mb-10'>
 
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-16 text-center w-full">
+                    <div className="grid grid-cols-2 md:grid-cols-4   text-center w-full">
 
                         <div>
                             <LogoCount end={4} />

@@ -63,27 +63,33 @@ const Details = () => {
                     </div>
                 )}
             </div>
-                <div className=" grid px-5 grid-cols-2 max-w-3xl mx-auto gap-8  md:ml-36z md:mb-20">
+     <div className="max-w-4xl mx-auto px-5 sm:px-6 lg:px-0 ">
+  <div className="grid grid-cols-2 md:grid-cols-5 gap-8 text-center mb-20">
 
-                    <div>
-                        <h3 className="text-[#6650D7]">Project Location</h3>
-                        <h4>{item.ProjectLocation}</h4>
-                    </div>
-                    <div>
-                        <h3 className="text-[#6650D7]">Completed</h3>
-                        <h4>{item.Completed}</h4>
-                    </div>
-                    <div>
-                        <h3 className="text-[#6650D7]">Client</h3>
-                        <h4>{item.Client}</h4>
-                    </div>
-                    <div>
-                        <h3 className="text-[#6650D7]">Credits</h3>
-                        <h4>{item.Credits}</h4>
-                    </div>
-                </div>
+    <div>
+      <h3 className="text-[#6650D7] font-semibold">Project Location</h3>
+      <h4 className="mt-2">{item.ProjectLocation}</h4>
+    </div>
+
+    <div>
+      <h3 className="text-[#6650D7] font-semibold">Completed</h3>
+      <h4 className="mt-2">{item.Completed}</h4>
+    </div>
+
+    <div>
+      <h3 className="text-[#6650D7] font-semibold">Client</h3>
+      <h4 className="mt-2">{item.Client}</h4>
+    </div>
+
+    <div>
+      <h3 className="text-[#6650D7] font-semibold">Credits</h3>
+      <h4 className="mt-2">{item.Credits}</h4>
+    </div>
+
+  </div>
+</div>
             <div className="mt-10 mb-10">
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-4 px-4">
+                <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-4 px-4">
                     {remainingProjects.map((project) => (
                         <Link
                             key={project.id}

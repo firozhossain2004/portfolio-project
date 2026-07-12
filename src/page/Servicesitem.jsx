@@ -4,7 +4,7 @@ import Process from "./Process";
 
 const Servicesitem = () => {
   return (
-    <div className="bg-black text-white px-5 md:px-8 lg:px-48 py-16">
+    <div className="bg-black text-white px-5  md:py-16">
 
 
       <div className=" md:text-left max-w-3xl mx-auto md:mx-0">
@@ -19,52 +19,86 @@ const Servicesitem = () => {
       </div>
 
 
-      <div className="mt-8 space-y-7 md:space-y-12">
+      <div className="mt-20 space-y-16">
 
         {servicesData.map((item, index) => (
           <div
             key={index}
-            className="flex flex-col md:flex-row  gap-5 lg:gap-36"
+            className={`
+        flex flex-col lg:flex-row
+        items-center
+        justify-between
+        gap-10 lg:gap-10 xl:gap-24
+        ${index % 2 !== 0 ? "lg:flex-row-reverse" : ""}
+      `}
           >
 
-
-            <div className="max-w-md space-y-6  md:text-left">
-              <h2 className="text-xl md:text-[35px] font-semibold">
+            <div className="w-full lg:w-1/2 max-w-lg">
+              <h2 className="text-2xl md:text-4xl font-semibold leading-tight">
                 {item.title}{" "}
-                <span className="font-primrie  text-gray-400">
+                <span className="font-primrie text-gray-400">
                   {item.highlight}
                 </span>
               </h2>
 
-              <p className="text-[14px] md:text-xs text-gray-400 w-xs">
+              <p className="mt-5 text-sm md:text-base text-gray-400 leading-7">
                 {item.description}
               </p>
 
-              <ul className="space-y-2 text-[12px] md:text-base text-gray-400 ">
+              <ul className="mt-6 space-y-3 text-sm md:text-base text-gray-400">
                 {item.features.map((f, i) => (
-                  <li key={i}>
-                    <span className="text-[#6650D7] text-lg">•</span> {f}
+                  <li key={i} className="flex gap-2">
+                    <span className="text-[#6650D7]">•</span>
+                    {f}
                   </li>
                 ))}
               </ul>
             </div>
 
-            <div className="relative w-full max-w-sm  md:ml-40 h-[400px] md:h-[500px]">
 
-              <img
-                src={item.images.main}
-                alt=""
-                className="absolute top-5 md:-ml-40 w-40 sm:w-48 md:w-64 h-60 md:h-80 object-cover rounded-xl border"
-              />
+            <div className="w-full lg:w-1/2 flex justify-center">
+              <div className="flex flex-row sm:flex-row items-center gap-3 lg:gap-8">
 
-              <img
-                src={item.images.secondary}
-                alt=""
-                className="absolute bottom-0 right-0 w-40 sm:w-48 md:w-64 h-60 md:h-80 object-cover rounded-xl border"
-              />
+                <img
+                  src={item.images.main}
+                  alt=""
+                  className="
+              w-36
+              sm:w-44
+              md:w-48
+              lg:w-52
+              xl:w-56
+              h-56
+              sm:h-60
+              md:h-64
+              lg:h-72
+              object-cover
+              rounded-2xl
+              border
+            "
+                />
 
+                <img
+                  src={item.images.secondary}
+                  alt=""
+                  className="
+              w-36
+              sm:w-44
+              md:w-48
+              lg:w-52
+              xl:w-56
+              h-56
+              sm:h-60
+              md:h-64
+              lg:h-72
+              object-cover
+              rounded-2xl
+              border
+              lg:mt-14
+            "
+                />
+              </div>
             </div>
-
           </div>
         ))}
 
