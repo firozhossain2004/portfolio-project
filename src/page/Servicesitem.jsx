@@ -72,6 +72,7 @@ const Servicesitem = () => {
               object-cover
               rounded-2xl
               border
+              lg:mb-20
             "
                 />
 
@@ -91,7 +92,7 @@ const Servicesitem = () => {
               object-cover
               rounded-2xl
               border
-              lg:mt-14
+              lg:mt-28
             "
                 />
               </div>
