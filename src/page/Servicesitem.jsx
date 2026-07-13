@@ -19,7 +19,7 @@ const Servicesitem = () => {
       </div>
 
 
-      <div className=" mt-10 lg:mt-20 space-y-10">
+      <div className=" mt-10 lg:mt-20 space-y-10 max-w-6xl mx-auto">
 
         {servicesData.map((item, index) => (
           <div
