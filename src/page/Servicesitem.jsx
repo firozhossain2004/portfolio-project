@@ -19,17 +19,14 @@ const Servicesitem = () => {
       </div>
 
 
-      <div className="mt-20 space-y-16">
+      <div className=" mt-10 lg:mt-20 space-y-10">
 
         {servicesData.map((item, index) => (
           <div
             key={index}
             className={`
-        flex flex-col lg:flex-row
-        items-center
-        justify-between
-        gap-10 lg:gap-10 xl:gap-24
-        ${index % 2 !== 0 ? "lg:flex-row-reverse" : ""}
+        flex flex-col lg:flex-row lg:items-center gap-10 lg:gap-28
+        }
       `}
           >
 

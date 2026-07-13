@@ -31,36 +31,40 @@ const LatestPortfolio = () => {
           <span className="font-primrie">Portfolio</span>
         </h1>
       </div>
-      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-6 gap-6 lg:gap-8">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-10">
 
         <Tile
           item={portfolioItems[0]}
-          className="lg:col-span-3"
-          imgHeightClass="h-64 sm:h-72 lg:h-[340px]"
-        />
-        <Tile
-          item={portfolioItems[1]}
-          className="lg:col-span-3"
-          imgHeightClass="h-64 sm:h-72 lg:h-[290px]"
-        />
-        <Tile
-          item={portfolioItems[2]}
-          className="sm:col-span-2 lg:col-span-6"
-          imgHeightClass="h-64 sm:h-80 lg:h-[450px]"
+          className="lg:col-span-2"
+          imgHeightClass="h-64 sm:h-72 lg:h-[370px]"
         />
 
         <Tile
+          item={portfolioItems[1]}
+          className="lg:col-span-2 lg:mt-14"
+          imgHeightClass="h-64 sm:h-72 lg:h-[310px]"
+        />
+
+        {/* Middle Image */}
+        <div className="sm:col-span-2 lg:col-span-4 flex justify-center">
+          <Tile
+            item={portfolioItems[2]}
+            className="w-full lg:w-[65%]"
+            imgHeightClass="h-64 sm:h-80 lg:h-[400px]"
+          />
+        </div>
+
+        <Tile
           item={portfolioItems[3]}
-          className="lg:col-span-3"
-          imgHeightClass="h-64 sm:h-72 lg:h-[290px]"
+          className="lg:col-span-2"
+          imgHeightClass="h-64 sm:h-72 lg:h-[310px]"
         />
 
         <Tile
           item={portfolioItems[4]}
-          className="lg:col-span-3"
-          imgHeightClass="h-64 sm:h-72 lg:h-[340px]"
+          className="lg:col-span-2"
+          imgHeightClass="h-64 sm:h-72 lg:h-[370px]"
         />
-
       </div>
 
 

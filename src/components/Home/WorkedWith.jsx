@@ -12,7 +12,7 @@ const WorkedWith = () => {
         <div className=''>
           <Count/>
         </div>
-        <div className='max-w-60  w-full  flex justify-center'>
+        <div className='max-w-64  w-full flex justify-center'>
           <img
             src={lastlogo}
             className='rounded-xl'

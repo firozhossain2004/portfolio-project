@@ -19,7 +19,7 @@ const Process = () => {
           {data.map((item, index) => (
             <div
               key={item.id}
-              className={`flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12 xl:gap-20 ${index % 2 !== 0 ? "lg:flex-row-reverse" : ""
+              className={`flex flex-col lg:flex-row  justify-between gap-8 lg:gap-12 xl:gap-20 ${index % 2 !== 0 ? "lg:flex-row-reverse" : ""
                 }`}
             >
               <div className="max-w-md space-y-4  md:text-left">
