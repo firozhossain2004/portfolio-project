@@ -1,9 +1,9 @@
-import img1 from '../assets/Service/img1.jpg'
-import img11 from '../assets/Service/img11.jpg'
-import img2 from '../assets/Service/img2.jpg'
-import img22 from '../assets/Service/img22.jpg'
-import img3 from '../assets/Service/img3.jpg'
-import img33 from '../assets/Service/img33.jpg'
+import img1 from '../assets/Service/1 Brand Identity Design (1).jpg'
+import img11 from '../assets/Service/1 Brand Identity Design (2).jpg'
+import img2 from '../assets/Service/2 Brochure & Catalog Design.jpg'
+import img22 from '../assets/Service/2 Brochure & Catalog Design.png'
+import img3 from "../assets/Service/3 Marketing Graphics.jpg"
+import img33 from "../assets/Service/3 Marketing Graphics.jpg"
 
 
 const servicesData = [

@@ -45,7 +45,6 @@ const LatestPortfolio = () => {
           imgHeightClass="h-64 sm:h-72 lg:h-[310px]"
         />
 
-        {/* Middle Image */}
         <div className="sm:col-span-2 lg:col-span-4 flex justify-center">
           <Tile
             item={portfolioItems[2]}
