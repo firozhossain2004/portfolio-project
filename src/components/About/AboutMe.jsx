@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import about from '../../assets/about.png'
+import { Link } from 'react-router-dom';
 
 
 const AboutMe = () => {
@@ -33,8 +34,8 @@ const AboutMe = () => {
 
             <div
               className={`text-gray-400 leading-8 space-y-1 overflow-hidden transition-all duration-500 ${showMore
-                  ? "max-h-[3000px]"
-                  : "max-h-56 lg:max-h-full"
+                ? "max-h-[3000px]"
+                : "max-h-56 lg:max-h-full"
                 }`}
             >
               <p>
@@ -87,9 +88,14 @@ const AboutMe = () => {
               </button>
             </div>
 
-            <button className="mt-8 bg-[#6650D7] hover:bg-[#5740d4] transition px-6 py-3 rounded-xl">
-              Download Resume
-            </button>
+            <a
+              href="https://drive.google.com/file/d/10GRe7PtreCriodS-mSRb1SOwmGZxbK11/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-8 inline-block bg-[#6650D7] hover:bg-[#5740d4] transition px-6 py-3 rounded-xl"
+            >
+              Download Now
+            </a>
 
           </div>
 
