@@ -64,7 +64,7 @@ import sliderLUXORICA9 from "../assets/workimg/Brochure/4. LUXORICA/04 All (9).w
 // 4 BROCHURE PROJECT
 import CoverSKYLINE from "../assets/workimg/Brochure/5. SKYLINE/0 Cover.webp"
 import HeroSKYLINE from "../assets/workimg/Brochure/5. SKYLINE/01 Hero.webp"
- import HeroSKYLINE2 from "../assets/workimg/Brochure/5. SKYLINE/02 Hero.mp4"
+
 import imagSKYLINEA from "../assets/workimg/Brochure/5. SKYLINE/03.webp"
 import SKYLINElast from "../assets/workimg/Brochure/5. SKYLINE/05.webp"
 // slider img
@@ -472,7 +472,7 @@ const data = [
     description: "SKYLINE is a premium corporate development by Heyazah Real Estate Development, created to strengthen the brand's presence within Riyadh's evolving business landscape. The goal was to develop a refined visual identity and brochure that would engage investors while reflecting the project's architectural ambition. My role included designing the logo, brand identity, color palette, typography, iconography, and brochure layout. Through structured editorial design, clean line motifs, and a restrained visual system, the final presentation delivers a sophisticated brand experience that feels modern, confident, and distinctly premium.",
     img: CoverSKYLINE,
     Heroimage: HeroSKYLINE,
-    Heroimage2: HeroSKYLINE2,
+    Heroimage2: "RJ4JlnnelTg",
     Heroimage2Type: "video",
     hero3: imagSKYLINEA,
     jpg5: SKYLINElast,

@@ -38,17 +38,18 @@ const Details = () => {
                 {item.description}
             </h3>
             {item.Heroimage2 && (
-                <div className="mb-10 mt-10">
+                <div className="mb-10 mt-10 w-full max-w-6xl mx-auto">
+
                     {item.Heroimage2Type === "video" ? (
-                        <video
-                            src={item.Heroimage2}
-                            autoPlay
-                            muted
-                            loop
-                            playsInline
-                            controls
-                            className="w-full rounded-sm"
-                        />
+                        <div className="relative w-full aspect-video overflow-hidden rounded-sm">
+                            <iframe
+                                src={`https://www.youtube.com/embed/${item.Heroimage2}`}
+                                title={item.title}
+                                className="absolute inset-0 w-full h-full"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen
+                            />
+                        </div>
                     ) : (
                         <img
                             src={item.Heroimage2}
@@ -56,6 +57,7 @@ const Details = () => {
                             className="w-full h-auto object-cover rounded-sm"
                         />
                     )}
+
                 </div>
             )}
 
