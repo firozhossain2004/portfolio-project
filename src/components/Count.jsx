@@ -7,7 +7,7 @@ const Count = () => {
 
                 <div>
                     <LogoCount end={4} />
-                    <p className='text-[16px] text-gray-400 w-17'>Years of Experience</p>
+                    <p className='text-[16px] text-gray-400 w-17 '>Years of Experience</p>
                 </div>
 
                 <div>

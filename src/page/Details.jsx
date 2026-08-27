@@ -40,13 +40,13 @@ const Details = () => {
             {item.Heroimage2 && (
                 <div className="mb-10 mt-10 w-full max-w-6xl mx-auto">
 
-                    {item.Heroimage2Type === "video" ? (
+                    {item.Heroimage2Type === "vimeo" ? (
                         <div className="relative w-full aspect-video overflow-hidden rounded-sm">
                             <iframe
-                                src={`https://www.youtube.com/embed/${item.Heroimage2}`}
+                                src={`https://player.vimeo.com/video/${item.Heroimage2}`}
                                 title={item.title}
                                 className="absolute inset-0 w-full h-full"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allow="autoplay; fullscreen; picture-in-picture"
                                 allowFullScreen
                             />
                         </div>
@@ -84,7 +84,7 @@ const Details = () => {
                     </div>
                 )}
             </div>
-            <div className="max-w-4xl mx-auto px-5 sm:px-6 lg:px-0 ">
+            <div className="max-w-4xl  px-5 sm:px-6 lg:px-0  md:ml-36">
                 <div className="grid grid-cols-2 md:grid-cols-5 gap-8 text-center mb-20">
 
                     <div>

@@ -7,7 +7,7 @@ const Servicesitem = () => {
     <div className="bg-black text-white px-5  md:py-16">
 
 
-      <div className=" md:text-left max-w-3xl mx-auto md:mx-0">
+      <div className=" md:text-left max-w-3xl mx-auto md:mx-0 md:ml-36">
         <h4 className="text-sm md:text-[16px] text-[#6650D7]">
           WHAT I DO
         </h4>
@@ -19,13 +19,13 @@ const Servicesitem = () => {
       </div>
 
 
-      <div className=" mt-10 lg:mt-20 space-y-10 max-w-6xl mx-auto">
+      <div className=" mt-10  space-y-10 max-w-6xl mx-auto md:mr-12">
 
         {servicesData.map((item, index) => (
           <div
             key={index}
             className={`
-        flex flex-col lg:flex-row lg:items-center gap-10 lg:gap-28
+        flex flex-col lg:flex-row lg:items-center gap-10 lg:gap-5
         }
       `}
           >
@@ -42,7 +42,7 @@ const Servicesitem = () => {
                 {item.description}
               </p>
 
-              <ul className="mt-6 space-y-3 text-sm md:text-base text-gray-400">
+              <ul className="mt-6 space-y-2 text-sm md:text-base text-gray-400">
                 {item.features.map((f, i) => (
                   <li key={i} className="flex gap-2">
                     <span className="text-[#6650D7]">•</span>
@@ -54,7 +54,7 @@ const Servicesitem = () => {
 
 
             <div className="w-full lg:w-1/2 flex justify-center">
-              <div className="flex flex-row sm:flex-row items-center gap-3 lg:gap-8">
+              <div className="flex flex-row sm:flex-row items-center gap-3 lg:gap-5">
 
                 <img
                   src={item.images.main}
@@ -71,7 +71,7 @@ const Servicesitem = () => {
               lg:h-72
               object-cover
               rounded-2xl
-              border
+              
               lg:mb-20
             "
                 />
@@ -89,9 +89,9 @@ const Servicesitem = () => {
               sm:h-60
               md:h-64
               lg:h-72
-              object-cover
+              object-cover object-center
               rounded-2xl
-              border
+             
               lg:mt-28
             "
                 />

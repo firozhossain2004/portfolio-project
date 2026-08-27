@@ -75,7 +75,7 @@ const ContactQuestion = () => {
             }`}
           >
             <div className="overflow-hidden">
-              <p className="text-gray-400 text-xs sm:text-sm md:text-base leading-relaxed">
+              <p className="text-gray-400 text-xs sm:text-sm md:text-xl leading-relaxed">
                 {item.answer}
               </p>
             </div>

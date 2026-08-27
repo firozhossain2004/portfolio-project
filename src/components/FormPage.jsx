@@ -3,7 +3,7 @@ import Form from './Form'
 
 const FormPage = () => {
     return (
-        <div className="flex flex-col md:flex-row gap-10 max-w-5xl mx-auto bg-white/10 p-6 md:p-8 rounded-2xl backdrop-blur-md overflow-hidden ">
+        <div className="flex flex-col md:flex-row gap-10 max-w-7xl mx-auto bg-white/10 p-6 md:p-8 rounded-2xl backdrop-blur-md overflow-hidden ">
 
             <div className='w-full md:w-1/2 space-y-7 '>
                 <h1 className='text-[28px] md:text-[43px] '>

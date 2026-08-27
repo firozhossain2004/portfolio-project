@@ -76,8 +76,6 @@ const Form = () => {
         </div>
 
       </div>
-
- 
       <div>
         <label className="block mb-2 text-sm  md:text-[20px]">
           Project Budget

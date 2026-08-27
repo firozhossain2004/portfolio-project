@@ -14,7 +14,7 @@ const Hero = () => {
                     <span className=' font-primrie'>Luxury</span> <span className='font-semibold'>Real Estate</span> <br />
                     <span className='font-semibold'>Branding That Sells</span> <span className='font-primrie italic '>Dreams</span>
                 </h1>
-                <p>Trusted by brands in 20+ countries</p>
+                <p className='text-xl'>Trusted by brands in 20+ countries</p>
                 <Link
                     to={"/contact"}
                     className='bg-[#6650D7] px-5 py-2 rounded-xl inline-block'

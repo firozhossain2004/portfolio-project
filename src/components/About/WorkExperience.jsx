@@ -3,7 +3,7 @@ import { experiences } from '../../Data/exprience'
 const WorkExperience = () => {
   return (
     <div className=' mt-8 md:mt-20 '>
-      <h1 className=' text-2xl md:text-5xl px-4 '>
+      <h1 className=' text-2xl md:text-5xl px-4  md:px-19'>
         <span className='font-semibold'> Work </span><span className='font-primrie'>Experience</span>
       </h1>
       <div className="max-w-4xl w-full md:w-3xl mx-auto px-4 sm:px-6 lg:px-0 mt-10">

@@ -2,8 +2,20 @@ import React from "react";
 import { Link } from "react-router-dom";
 import data from "../../Data/workimg";
 
-const portfolioItems = data.slice(0, 5);
-const Tile = ({ item, className = "", imgHeightClass = "h-64 sm:h-72" }) => {
+const portfolioIds = [3, 1, 2,13,6];
+
+const portfolioItems = portfolioIds
+  .map((id) => data.find((item) => item.id === id))
+  .filter(Boolean);
+
+
+
+
+const Tile = ({
+  item,
+  className = "",
+  imgHeightClass = "h-64 sm:h-72",
+}) => {
   if (!item) return null;
 
   return (
@@ -22,22 +34,35 @@ const Tile = ({ item, className = "", imgHeightClass = "h-64 sm:h-72" }) => {
 };
 
 
+
 const LatestPortfolio = () => {
   return (
     <section className="py-15 md:py-20 px-4 sm:px-6 lg:px-8">
+
+     
       <div className="text-center mb-5 lg:mb-16">
         <h1 className="text-3xl md:text-5xl leading-tight">
-          <span className="font-semibold">Latest </span>
-          <span className="font-primrie">Portfolio</span>
+          <span className="font-semibold">
+            Latest{" "}
+          </span>
+
+          <span className="font-primrie">
+            Portfolio
+          </span>
         </h1>
       </div>
+
+
+      
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-10">
 
+      
         <Tile
           item={portfolioItems[0]}
           className="lg:col-span-2"
           imgHeightClass="h-64 sm:h-72 lg:h-[370px]"
         />
+
 
         <Tile
           item={portfolioItems[1]}
@@ -45,6 +70,8 @@ const LatestPortfolio = () => {
           imgHeightClass="h-64 sm:h-72 lg:h-[310px]"
         />
 
+
+        
         <div className="sm:col-span-2 lg:col-span-4 flex justify-center">
           <Tile
             item={portfolioItems[2]}
@@ -53,20 +80,25 @@ const LatestPortfolio = () => {
           />
         </div>
 
+
         <Tile
           item={portfolioItems[3]}
           className="lg:col-span-2"
           imgHeightClass="h-64 sm:h-72 lg:h-[310px]"
         />
 
+
+        {/* Project 5 */}
         <Tile
           item={portfolioItems[4]}
           className="lg:col-span-2"
           imgHeightClass="h-64 sm:h-72 lg:h-[370px]"
         />
+
       </div>
 
 
+      {/* See All Projects */}
       <div className="flex justify-center mt-12">
         <Link
           to="/work"
@@ -75,6 +107,7 @@ const LatestPortfolio = () => {
           See All Projects
         </Link>
       </div>
+
     </section>
   );
 };

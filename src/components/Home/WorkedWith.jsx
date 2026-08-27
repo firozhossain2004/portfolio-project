@@ -4,22 +4,51 @@ import Count from '../Count'
 
 const WorkedWith = () => {
   return (
-    <div>
-      <h1 className='text-3xl md:text-5xl mt-8  mb-10 text-center md:text-left'>
-        <span className='font-primrie text-center '>Worked</span> with
+    <div className="w-full">
+      <h1
+        className="
+          text-3xl
+          md:text-5xl
+          mt-8
+          mb-10
+          text-left
+         
+          2xl:pl-80
+        "
+      >
+        <span className="font-primrie">
+          Worked
+        </span>{" "}
+        with
       </h1>
-      <div className='max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-between px-2 gap-5 md:gap-20 space-y-10'>
-        <div className=''>
-          <Count/>
+      <div
+        className="
+          max-w-4xl
+          mx-auto
+          flex
+          flex-col
+          md:flex-row
+          items-center
+          justify-between
+          px-2
+          gap-5
+          md:gap-20
+          space-y-10
+        "
+      >
+        <div>
+          <Count />
         </div>
-        <div className='max-w-64  w-full flex justify-center'>
+
+        <div className="max-w-64 w-full flex justify-center">
           <img
             src={lastlogo}
-            className='rounded-xl'
+            className="rounded-xl"
             alt="lastlogo"
           />
         </div>
       </div>
+
     </div>
   )
 }
