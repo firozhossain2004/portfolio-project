@@ -195,11 +195,11 @@ export default function TestimonialSlider() {
           <div className="flex items-center gap-8 lg:gap-10">
             <div
               className="
-                h-28
-                w-28
+                h-40
+                w-32
                 shrink-0
                 overflow-hidden
-                rounded-full
+                rounded-xl
               "
             >
               <img
@@ -208,7 +208,7 @@ export default function TestimonialSlider() {
                 className="
                   h-full
                   w-full
-                  object-cover
+                  object-contain
                 "
               />
             </div>

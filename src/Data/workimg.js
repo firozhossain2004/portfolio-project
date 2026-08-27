@@ -267,7 +267,7 @@ import sliderAscendfinityl8 from "../assets/workimg/Catalogs/3 Catalog - ASCENDF
 import sliderAscendfinityl9 from "../assets/workimg/Catalogs/3 Catalog - ASCENDFINITY/04 All (9).webp"
 // slider img
 // 01 Poster
-import CoverDesignColl from "../assets/workimg/Poster/03.jpg"
+import CoverDesignColl from "../assets/workimg/Poster/04All (1).webp"
 import HeroDesignColl from "../assets/workimg/Poster/01 Hero.webp"
 import HeroDesignColl2 from "../assets/workimg/Poster/02.webp"
 import imageDesignColl from "../assets/workimg/Poster/03.jpg"

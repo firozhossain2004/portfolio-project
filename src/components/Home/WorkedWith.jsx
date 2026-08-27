@@ -40,7 +40,7 @@ const WorkedWith = () => {
           <Count />
         </div>
 
-        <div className="max-w-64 w-full flex justify-center">
+        <div className="max-w-64 w-full flex justify-center md:h-80">
           <img
             src={lastlogo}
             className="rounded-xl"
