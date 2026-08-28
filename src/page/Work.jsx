@@ -68,7 +68,7 @@ const Work = () => {
         </h1>
       </div>
 
-      <div className="flex flex-wrap justify-center gap-7 mb-10 px-2 max-w-7xl mx-auto">
+      <div className="flex  flex-wrap justify-center gap-7 mb-10 px-2 max-w-7xl mx-auto">
 
         {categories.map((cat) => (
           <button

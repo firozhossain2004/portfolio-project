@@ -140,8 +140,6 @@ export default function TestimonialSlider() {
 
         {isMobile ? (
           <div className="flex flex-col items-center">
-
-
             <img
               src={image}
               alt={name}
